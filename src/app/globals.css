@@ -2,20 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Colour palette */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1E1E28;
+  --white: #ededed;
+  --grayLight: #BAC1B8;
+  --green: #40F99B;
+  --violet: #98A6D4;
+  --yellow: #FFC008;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  /* border: 1px solid red; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }

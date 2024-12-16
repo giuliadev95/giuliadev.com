@@ -9,9 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'var(--background)',
+        grayLight: 'var(--grayLight)',
+        green: 'var(--green)',
+        violet: 'var(--violet)',
+        yellow: 'var(--yellow)',
+        white: 'var(--white)',
       },
+      screens: {
+        xxl: '2560px',
+      }
     },
   },
   plugins: [],
