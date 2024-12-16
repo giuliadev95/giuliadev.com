@@ -66,6 +66,7 @@ export default function Projects() {
                         </Link>
                     </span>
                 </p>
+                
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 
@@ -102,13 +103,13 @@ export default function Projects() {
 
                          {/** GitHub */}
                         <Link 
-                        href={"/"}
+                        href={"https://github.com/giuliadev95/portfolio-website"}
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >GitHub
                         </Link>
-                        
+
                         {/** Live website */}
                         <Link 
                         href={"/"}
@@ -118,12 +119,14 @@ export default function Projects() {
                         </Link>
                     </span>
                 </p>
+
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 
              {/** FAQ - project container */}
              <div className="flex flex-col items-start gap-6">
-                {/** Image */}
+
+                {/** Image with a link to the project page */}
                 <Link 
                     href={"https://minimalist-static-portfolio.netlify.app/"}
                     rel="noopener, noreferrer"
@@ -131,13 +134,17 @@ export default function Projects() {
                     <div className="bg-[url('/minimalist-portfolio.png')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
                                     lg:w-[600px] lg-[300px] rounded-lg">
                     </div>
-                </Link>        
+                </Link>      
+
+                {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">Minimalist Portfolio</h3>
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">HTML</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">CSS</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">JavaScript</span>
                 </div>
+
+                {/** Description */}
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
                     This is a static portfolio page I built to test my responsive design skills, 
                     focusing on flexbox and grid layout.
@@ -147,40 +154,29 @@ export default function Projects() {
                     I implemented the opening of the mobile menu and replaced the images 
                     of the projects when resizing the web page.
                     <br/> <br/>
-                    {/** My workflow, GitHub, Live website */}
-                        {/* <Link 
-                        href={"/tutorlife"}
-                        // className="py-2 px-2 border border-grayLight rounded-lg w-fit"
-                        className="underline underline-offset-4 text-grayLight"
-                        >My workflow
-                        </Link> */}
 
+                    {/** Links to GitHub and Live Website */}
                     <span className="flex gap-4 text-sm flex-wrap">
+
+                        {/* GitHub */}
                         <Link 
-                        href={"/tutorlife"}
-                        // className="py-2 px-4 border border-grayLight rounded-lg"
+                        href={"https://github.com/giuliadev95/minimalist-portfolio-website"}
+                        rel="noopener, noreferrer"
+                        target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >GitHub
                         </Link>
 
+                        {/* Live website */}
                         <Link 
-                        href={"/tutorlife"}
-                        // className="py-2 px-4 border border-grayLight rounded-lg"
+                        href={"https://minimalist-static-portfolio.netlify.app/"}
+                        rel="noopener, noreferrer"
+                        target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >Live website
                         </Link>
                     </span>
                 </p>
-                {/* <h4 className="text-white text-lg font-medium py-1 px-2 border border-zinc-50 rounded-lg mt-4">Check out my other projects on GitHub!</h4> */}
-                {/* <Link 
-                        href={"https://github.com/giuliadev95"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="underline underline-offset-4 text-grayLight"
-                        // className="text-white text-lg font-medium py-1 px-2 border border-zinc-50 rounded-lg mt-4"
-                >
-                    Check out my other projects on GitHub!
-                </Link> */}
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-12"/>
             </div>
             
