@@ -1,4 +1,4 @@
-// React icons
+// Import React icons
 import { FaCss3Alt } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -14,7 +14,7 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 import { SiTypescript } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
-// Other imports
+// Import components
 import Link from "next/link";
 
 export default function About() {
@@ -25,23 +25,30 @@ export default function About() {
                 <h2 id="about" className="text-white text-bold text-3xl scroll-mt-24">
                     About
                 </h2>
+
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
                     I’m a web developer passionate about design and software. 
-                    I build my projects with a fullstack approach, from the mockups on Figma to 
-                    the actual implementation of the code.<br/><br/>I work mainly with JavaScript / Typescript, 
-                    using React and Next.js as frameworks.<br/><br/>My journey started as a self-taught person, 
+                    I build my projects with a full-stack approach, from the mockup on Figma to 
+                    the actual implementation of the code.
+                    <br/><br/>
+                    I work mainly with JavaScript / Typescript, 
+                    using React and Next.js as frameworks.
+                    <br/><br/>
+                    My journey started as a self-taught person, 
                     studying really hard and attending courses, while strengthening my skills through 
                     side projects. I’m currently diving deeper into Next.js and the full-stack world.
                 </p>
             </div>
+
             {/** My courses */}
             <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
                 <h3 className="text-white text-bold text-3xl scroll-mt-24">
                     My courses
                 </h3>
-                {/** Single Course presentation */}
+
                 <div className="grid grid-cols-[repeat(auto-fit,_minmax(auto,_1fr))] md:grid-cols-2 gap-8 mt-2"> 
+                    {/** Single Course presentation */}
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className=" font-semibold">
                             October - november 2024
@@ -51,6 +58,7 @@ export default function About() {
                         </p>
                             <Link 
                                 href={"https://www.sanity.io/learn/course/content-driven-web-application-foundations/share/gfwE6oY85?utm_campaign=course_completed&utm_medium=social&utm_source=copy_link"}
+                                rel="noopener noreferrer"
                                 target="_blank"
                                 aria-label="Go to Sanity Learn and check the course I completed"
                                 title="Check the course I attendend on Sanity Learn"
@@ -60,13 +68,15 @@ export default function About() {
                                 </span>
                             </Link>
                     </div>
-                {/** Single Course presentation */}
+
+                    {/** Single Course presentation */}
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">September - october 2024</p>
                         <p>
                             Complete JavaScript course
-                        </p>
-                        <p> &quot;Corso JavaScript completo&quot;</p>
+                            <br/>
+                            &quot;Corso JavaScript completo&quot;
+                            </p>
                         <Link 
                             href={"https://www.codegrind.it/corsi/corso-js-completo"}
                             target="_blank"
@@ -77,7 +87,8 @@ export default function About() {
                             <span className="text-green"> Codegrind</span>
                             </Link>
                     </div>
-                {/** Single Course presentation */}
+
+                    {/** Single Course presentation */}
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">April - september 2024</p>
                         <p>
@@ -93,36 +104,41 @@ export default function About() {
                         </Link>
                    
                     </div>
-                {/** Single Course presentation */}
+
+                    {/** Single Course presentation */}
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">
                             May 2024
                         </p>
                         <p>
-                            Introduction to Front-End development - 
+                            Introduction to Front-End development
                         </p>
                             <Link 
-                                href={"/certificate.pdf"}
+                                href={"https://www.coursera.org/learn/introduction-to-front-end-development"}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                aria-label="Certificate"
-                                title="Open my certificate">
+                                aria-label="Check the course I completed on Coursera"
+                                title="Check the course I completed on Coursera">
                                 <span className="text-green"> 
                                     Coursera
                                 </span>
                             </Link>
                     </div>
-
                 </div>
             </div>
+
             {/** My skills */}
             <div className="flex flex-col gap-8 pb-20 justify-center items-start max-w-fit mx-auto">
                 <h3 className="text-white text-bold text-3xl scroll-mt-24">
                     My skills
                 </h3>
+
                 {/** Languages */}
                 <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">Languages</h3>
+                    <h3 className="text-yellow text-xl">
+                        Languages
+                    </h3>
+                    {/* List of programming languages */}
                     <div className="relative group">
                          <IoLogoJavascript className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -151,7 +167,10 @@ export default function About() {
                 </div>
                 {/** Frameworks */}
                 <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">Frameworks</h3>
+                    <h3 className="text-yellow text-xl">
+                        Frameworks
+                    </h3>
+                    {/* List of frameworks */}
                     <div className="relative group">
                         <FaReact className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -187,9 +206,12 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+
                 {/** Development tools */}
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">Tools</h3>
+
+                    {/* List of development tools */}
                     <div className="relative group">
                         <FaGitAlt className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -221,6 +243,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                {/* Design tool */}
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">Design</h3>
                     <div className="relative group">

@@ -4,7 +4,7 @@ export default function Projects() {
     return(
         <div className="flex flex-col items-center gap-8">
             {/** Projects */}
-            <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8">
+            <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8 scroll-mt-12">
                 Projects
             </h2>
             

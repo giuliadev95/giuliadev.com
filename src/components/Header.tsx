@@ -1,11 +1,12 @@
-// React icons
+// Import React icons
 import { FiUser } from "react-icons/fi";
 import { IoBriefcaseOutline } from "react-icons/io5";
 import { RiHome4Line } from "react-icons/ri";
 import { MdOutlineLocalPhone } from "react-icons/md";
-// Other import
+// Import components
 import Link from "next/link";
 
+// Fixed navbar
 export default function Header () {
     return (
         <div className="fixed min-w-[100%] max-h-30px top-0 backdrop-blur-lg z-10 mx-auto">
