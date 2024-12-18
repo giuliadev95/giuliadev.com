@@ -1,3 +1,4 @@
+// Import components
 import Link from "next/link";
 
 export default function Projects() {
@@ -23,7 +24,9 @@ export default function Projects() {
                 </Link>
 
                 {/* Title and Languages I used*/}
-                <h3 className="text-grayLight text-2xl font-semibold mt-2">Tutor life</h3>
+                <h3 className="text-grayLight text-2xl font-semibold mt-2">
+                    Tutor life
+                </h3>
                 <div className="flex flex-wrap gap-2 max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Sanity CMS</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Next.js</span>
@@ -78,7 +81,9 @@ export default function Projects() {
                 </div>
 
                 {/* Title and Languages I used*/}
-                <h3 className="text-grayLight text-2xl font-semibold mt-2">This personal website</h3>
+                <h3 className="text-grayLight text-2xl font-semibold mt-2">
+                    This personal website
+                </h3>
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Next.js</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">React</span>
@@ -137,7 +142,9 @@ export default function Projects() {
                 </Link>      
 
                 {/* Title and Languages I used*/}
-                <h3 className="text-grayLight text-2xl font-semibold mt-2">Minimalist Portfolio</h3>
+                <h3 className="text-grayLight text-2xl font-semibold mt-2">
+                    Minimalist Portfolio
+                </h3>
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">HTML</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">CSS</span>
@@ -147,7 +154,7 @@ export default function Projects() {
                 {/** Description */}
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
                     This is a static portfolio page I built to test my responsive design skills, 
-                    focusing on flexbox and grid layout.
+                    focusing on CSS flexbox and grid.
                     <br/>
                     <br/>
                     Also, I did my first tests with DOM manipulation: using JavaScript, 

@@ -133,12 +133,12 @@ export default function About() {
                     My skills
                 </h3>
 
-                {/** Languages */}
+                {/** Languages 
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">
                         Languages
                     </h3>
-                    {/* List of programming languages */}
+                    {/* List of programming languages 
                     <div className="relative group">
                          <IoLogoJavascript className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -165,12 +165,13 @@ export default function About() {
                     </div>
 
                 </div>
-                {/** Frameworks */}
+              
+                {/** Frameworks 
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">
                         Frameworks
                     </h3>
-                    {/* List of frameworks */}
+                    {/* List of frameworks 
                     <div className="relative group">
                         <FaReact className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -196,7 +197,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                {/** CMS */}
+                {/** CMS 
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">CMS</h3>
                     <div className="relative group">
@@ -207,11 +208,11 @@ export default function About() {
                     </div>
                 </div>
 
-                {/** Development tools */}
+                {/** Development tools *
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">Tools</h3>
 
-                    {/* List of development tools */}
+                    {/* List of development tools *
                     <div className="relative group">
                         <FaGitAlt className="text-grayLight text-4xl"/>
                         <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -243,7 +244,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                {/* Design tool */}
+                {/* Design tool *
                 <div className="flex items-center justify-center gap-4"> 
                     <h3 className="text-yellow text-xl">Design</h3>
                     <div className="relative group">
@@ -252,6 +253,19 @@ export default function About() {
                             Figma
                         </div>
                     </div>
+                </div>
+                */}
+
+                <div className="flex flex-wrap items-center justify-start gap-4 text-[#97D4C7] font-semibold max-w-[300px] md:max-w-[500px]">
+                    <p className="px-2 py-1 w-fit rounded-xl border border-[#97D4C7]"># JavaScript</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># TypeScript</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># React</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Next.js</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Tailwind CSS</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># HTML</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># CSS</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Git</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Sanity CMS</p>
                 </div>
             </div>
         </div>
