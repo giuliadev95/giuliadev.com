@@ -13,19 +13,26 @@ export default function Header () {
             <div className="relative w-full bg-background/80"> 
                 <div className="absolute inset-0 -z-20 h-full w-full bg-lime-50/5">
                 </div>  
-                <nav className="flex items-center justify-between px-5 py-4 text-grayLight border-b-zinc-300>
+                <nav className="flex items-center justify-between px-5 py-4 text-white border-b-zinc-300 font-base text-sm>
                     md:mx-[10rem] lg:mx-[20rem] xxl:mx-[30rem] z-9999 ">
-                    <Link href={"/"}>
-                        <RiHome4Line className="text-white text-xl  xxl:text-3xl hover:text-green hover:cursor-pointer  hover:scale-110 transition-all duration-300"/>
+                    <Link href={"/"} className="">
+                        {/* <RiHome4Line className="text-white text-xl  xxl:text-3xl hover:text-green hover:cursor-pointer  hover:scale-110 transition-all duration-300"/> */}
+                    Home
                     </Link>
                     <Link href={"/#about"}>
-                        <FiUser className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/>
+                        {/* <FiUser className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/> */}
+                        About
+                    </Link>
+                    <Link href={"/#skills"}>
+                        Skills
                     </Link>
                     <Link href={"/#projects"}>
-                        <IoBriefcaseOutline className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/>
+                        {/* <IoBriefcaseOutline className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/> */}
+                        Projects
                     </Link>
                     <Link href={"/#contact"}>
-                        <MdOutlineLocalPhone className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/> 
+                        {/* <MdOutlineLocalPhone className="text-white text-xl xxl:text-3xl hover:text-green  hover:scale-110 transition-all duration-300"/>  */}
+                        Contact
                     </Link>
                 </nav>
             </div>           

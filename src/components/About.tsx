@@ -129,133 +129,10 @@ export default function About() {
 
             {/** My skills */}
             <div className="flex flex-col gap-8 pb-20 justify-center items-start max-w-fit mx-auto">
-                <h3 className="text-white text-bold text-3xl scroll-mt-24">
+                <h3 id="skills" className="text-white text-bold text-3xl scroll-mt-24">
                     My skills
                 </h3>
-
-                {/** Languages 
-                <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">
-                        Languages
-                    </h3>
-                    {/* List of programming languages 
-                    <div className="relative group">
-                         <IoLogoJavascript className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            JavaScript
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <SiTypescript className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Typescript
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <IoLogoHtml5 className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            HTML 5
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <FaCss3Alt className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                           CSS 3
-                        </div>
-                    </div>
-
-                </div>
-              
-                {/** Frameworks 
-                <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">
-                        Frameworks
-                    </h3>
-                    {/* List of frameworks 
-                    <div className="relative group">
-                        <FaReact className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                           React
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <SiNextdotjs className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Next.js
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <RiTailwindCssFill className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 text-center hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                           Tailwind CSS
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <SiBootstrap className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Bootstrap
-                        </div>
-                    </div>
-                </div>
-                {/** CMS 
-                <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">CMS</h3>
-                    <div className="relative group">
-                        <SiSanity className="text-grayLight text-4xl"/>      
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Sanity
-                        </div>
-                    </div>
-                </div>
-
-                {/** Development tools *
-                <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">Tools</h3>
-
-                    {/* List of development tools *
-                    <div className="relative group">
-                        <FaGitAlt className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Git
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <FaGithub className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            GitHub
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <BiLogoVisualStudio className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 w-[100px] text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Visual Studio Code
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <SiNetlify className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Netlify
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <IoLogoVercel className="text-grayLight text-4xl"/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Vercel
-                        </div>
-                    </div>
-                </div>
-                {/* Design tool *
-                <div className="flex items-center justify-center gap-4"> 
-                    <h3 className="text-yellow text-xl">Design</h3>
-                    <div className="relative group">
-                        <FaFigma className="text-grayLight text-4xl" tabIndex={0}/>
-                        <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 hidden group-hover:block bg-gray-800 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            Figma
-                        </div>
-                    </div>
-                </div>
-                */}
-
+                {/* Skills names */}
                 <div className="flex flex-wrap items-center justify-start gap-4 text-[#97D4C7] font-semibold max-w-[300px] md:max-w-[500px]">
                     <p className="px-2 py-1 w-fit rounded-xl border border-[#97D4C7]"># JavaScript</p>
                     <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># TypeScript</p>
@@ -269,6 +146,5 @@ export default function About() {
                 </div>
             </div>
         </div>
-
     )
 }
