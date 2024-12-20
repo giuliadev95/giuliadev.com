@@ -14,7 +14,7 @@ export default function Projects() {
                 
                 {/** Image with a link to the project page */}
                 <Link 
-                href={"https://blog-76ik.vercel.app/"}
+                href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
                 rel="noopener noreferrer"
                 target="_blank"
                 >
@@ -42,8 +42,8 @@ export default function Projects() {
                     which is based on Typescript and stores all my blog posts.
                     <br/>
                     <br/>
-                    I got the chance to work with types and queries, to get a dynamic and more robust website.
-                    <br/> <br/>
+                    I learned a lot working with types and queries to set up the CMS and fetch posts.                    <br/>
+                    <br/>
 
                     {/** Links to GitHub and Live Website */}
                     <span className="flex gap-4 text-sm flex-wrap">
@@ -60,7 +60,7 @@ export default function Projects() {
 
                         {/** Live website */}
                         <Link 
-                        href={"https://blog-76ik.vercel.app/"}
+                        href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
@@ -96,7 +96,7 @@ export default function Projects() {
                     A simple portfolio website, built with Next.js. 
                     I consider this a milestone in my learning journey, as it gave me 
                     the opportunity to solidify my foundations, while also 
-                    showing my learning journey.
+                    showing my works.
                     <br/>
                     <br/>
                     I tried to get a simple and professional look: the mockups I created in Figma 
@@ -153,11 +153,12 @@ export default function Projects() {
 
                 {/** Description */}
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
-                    This is a static portfolio page I built to test my responsive design skills, 
+                    This is a static portfolio page I built at the beginning of my journey, 
+                    to test my responsive design skills, 
                     focusing on CSS flexbox and grid.
                     <br/>
                     <br/>
-                    Also, I did my first tests with DOM manipulation: using JavaScript, 
+                    Also, here I did my first tests with DOM manipulation: using JavaScript, 
                     I implemented the opening of the mobile menu and replaced the images 
                     of the projects when resizing the web page.
                     <br/> <br/>

@@ -41,10 +41,10 @@ export default function About() {
                 </p>
             </div>
 
-            {/** My courses */}
+            {/** Courses I attended */}
             <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
                 <h3 className="text-white text-bold text-3xl scroll-mt-24">
-                    My courses
+                    Courses I attended
                 </h3>
 
                 <div className="grid grid-cols-[repeat(auto-fit,_minmax(auto,_1fr))] md:grid-cols-2 gap-8 mt-2"> 
@@ -92,7 +92,7 @@ export default function About() {
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">April - september 2024</p>
                         <p>
-                            Frontend Menotr challenges
+                            Frontend Mentor challenges
                         </p>
                         <Link
                             href={"https://www.frontendmentor.io/profile/giuliadev95"}
