@@ -1,19 +1,3 @@
-// Import React icons
-import { FaCss3Alt } from "react-icons/fa";
-import { FaFigma } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
-import { IoLogoHtml5 } from "react-icons/io";
-import { IoLogoJavascript } from "react-icons/io";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiBootstrap } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { SiSanity } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { BiLogoVisualStudio } from "react-icons/bi";
-import { SiTypescript } from "react-icons/si";
-import { SiNetlify } from "react-icons/si";
-import { IoLogoVercel } from "react-icons/io5";
 // Import components
 import Link from "next/link";
 
