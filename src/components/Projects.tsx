@@ -48,15 +48,16 @@ export default function Projects() {
                     {/** Links to GitHub and Live Website */}
                     <span className="flex gap-4 text-sm flex-wrap">
 
-                        {/** GitHub */}
-                        <Link 
-                        href={"https://github.com/giuliadev95/blog"}
-                        rel="noopener, noreferrer"
-                        target="_blank"
-                        className="underline underline-offset-4 text-grayLight"
-                        >
-                        GitHub
+                        {/** GitHub link: don't include, it's a private repo
+                            <Link 
+                            href={"https://github.com/giuliadev95/blog"}
+                            rel="noopener, noreferrer"
+                            target="_blank"
+                            className="underline underline-offset-4 text-grayLight"
+                            >
+                            GitHub
                         </Link>
+                        */}
 
                         {/** Live website */}
                         <Link 
