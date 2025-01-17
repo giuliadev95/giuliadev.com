@@ -38,7 +38,7 @@ export default function Hero() {
             
             {/** Dowload CV, Go to projects */}
             <span className="flex justify-between items-center gap-24">
-                <a href="/giulia-moukouyou-cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open my curriculum in a new page" title="Open my curriculum in a new page">
+                <a href="/giulia_moukouyou_cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open my curriculum in a new page" title="Open my curriculum in a new page">
                     <button type="button" className="bg-green rounded-2xl px-4 py-2 flex items-center justify-center gap-1 w-[100px] transition-all duration-300 hover:scale-110">
                             <p className="text-background text-sm font-medium">
                                 CV
