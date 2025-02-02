@@ -1,5 +1,6 @@
 // Import components
 import Link from "next/link";
+import { CourseList } from "./CourseList";
 
 export default function About() {
     return(
@@ -25,14 +26,14 @@ export default function About() {
                 </p>
             </div>
 
-            {/** Courses I attended */}
+            {/** Courses I attended 
             <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
                 <h3 className="text-white text-bold text-3xl scroll-mt-24">
                     Courses I attended
                 </h3>
 
                 <div className="grid grid-cols-[repeat(auto-fit,_minmax(auto,_1fr))] md:grid-cols-2 gap-8 mt-2"> 
-                    {/** Single Course presentation */}
+                    {/** Single Course presentation 
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className=" font-semibold">
                             October - november 2024
@@ -53,7 +54,7 @@ export default function About() {
                             </Link>
                     </div>
 
-                    {/** Single Course presentation */}
+                    {/** Single Course presentation 
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">September - october 2024</p>
                         <p>
@@ -72,7 +73,7 @@ export default function About() {
                             </Link>
                     </div>
 
-                    {/** Single Course presentation */}
+                    {/** Single Course presentation 
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">April - september 2024</p>
                         <p>
@@ -89,7 +90,7 @@ export default function About() {
                    
                     </div>
 
-                    {/** Single Course presentation */}
+                    {/** Single Course presentation 
                     <div className="grid grid-rows-3 text-grayLight text-sm md:text-base w-[250px] rounded-xl px-4 py-2 border border-grayLight gap-4 h-[150px] md:h-[200px]">
                         <p className="font-semibold">
                             May 2024
@@ -110,6 +111,13 @@ export default function About() {
                     </div>
                 </div>
             </div>
+            */}
+
+            {/** Courses I attended: dynamic list with props */}
+            <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
+                <CourseList/>
+            </div>
+
 
             {/** My skills */}
             <div className="flex flex-col gap-8 pb-20 justify-center items-start max-w-fit mx-auto">
