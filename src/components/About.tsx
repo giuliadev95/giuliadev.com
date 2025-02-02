@@ -1,5 +1,5 @@
 // Import components
-import Link from "next/link";
+// import Link from "next/link";
 import { CourseList } from "./CourseList";
 
 export default function About() {
