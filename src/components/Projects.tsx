@@ -61,7 +61,8 @@ export default function Projects() {
 
                         {/** Live website */}
                         <Link 
-                        href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
+                       // href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
+                       href={"https://blog-76ik-git-backup-pre-update-giulia-ms-projects.vercel.app/"}
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
