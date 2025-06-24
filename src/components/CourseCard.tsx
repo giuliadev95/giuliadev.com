@@ -29,11 +29,9 @@ export function CourseCard({ date, title, link, platform, arialabel }:CourseCard
                 aria-label={arialabel}
                 title= {`Check the course on ${platform}`}
             >
-
                 {/* // Platform */}
                 <p className="text-green">{platform}</p>
-            </Link>
-            
+            </Link>       
         </div>
     );  
 }
