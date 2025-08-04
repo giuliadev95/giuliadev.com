@@ -12,7 +12,7 @@ export default function Projects() {
 <div className="flex flex-col items-start gap-6">   
                 {/** Image with a link to the project page */}
                 <Link 
-                href={"https://github.com/giuliadev95/contactlist"}
+                href={"https://github.com/giuliadev95/Contract-Management-System/"}
                 rel="noopener noreferrer"
                 target="_blank"
                 >

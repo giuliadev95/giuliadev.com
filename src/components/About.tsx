@@ -12,16 +12,18 @@ export default function About() {
                 </h2>
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
-                    I&#39;m a versatile web developer with one year of experience working on side projects like websites and web apps.
-                    I&#39;ve worked with Node.js / Express, React, and SQL databases.
+                    I&#39;m a versatile web developer who enjoys working hands-on across the stack, from backend and frontend to UI and web design.
+                    <br></br>
+                    <br></br>
+                    I love building things.
+                    I&#39;ve worked on websites made with Next.js, and on webapps made with Node.js / Express, React, and SQL databases.
+                    I&#39;m currently diving into C# and As.NET Core development.
                     <br></br>
                     I take care of the entire process, from designing prototype mockups on Figma, to defining the system architecture and finally writing the code.
                     <br/><br/>
                     My journey began as a self-taught programmer after my bachelor&#39;s degree in Ancient Literature,
                     while I was working as a tutor.
-                    I fell in love with programming languages, took CS online courses driven by a strong interest and started building software.
-                    <br/><br/>
-                    I&#39;m currently diving into C# and As.NET Core development.
+                    I fell in love with programming languages, took CS online courses driven by a strong interest and started building software.       
                 </p>
             </div>
 
