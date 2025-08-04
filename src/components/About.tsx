@@ -12,16 +12,16 @@ export default function About() {
                 </h2>
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
-                    I&#39;m a web developer passionate about design and software. 
-                    I build my projects with a full-stack approach, from the mockup on Figma to 
-                    the actual implementation of the code.
+                    I&#39;m a versatile web developer with one year of experience working on side projects like websites and web apps.
+                    I've worked with Node.js / Express, React, and SQL databases.
+                    <br></br>
+                    I take care of the entire process, from designing prototype mockups on Figma, to defining the system architecture and finally writing the code.
                     <br/><br/>
-                    I work mainly with JavaScript / Typescript, 
-                    using React and Next.js as frameworks.
+                    My journey began as a self-taught programmer after my bachelor's degree in Ancient Literature,
+                    while I was working as a tutor.
+                    I fell in love with programming languages by chance, took CS online courses driven by my strong interest and started building software.
                     <br/><br/>
-                    My journey started as a self-taught person, 
-                    studying really hard and attending courses, while strengthening my skills through 
-                    side projects. I&#39;m currently diving deeper into Next.js and the full-stack world.
+                    I&#39;m currently diving into C# and As.NET Core development.
                 </p>
             </div>
 
