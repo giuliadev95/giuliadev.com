@@ -8,6 +8,51 @@ export default function Projects() {
             <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8 scroll-mt-12">
                 Projects
             </h2>
+
+<div className="flex flex-col items-start gap-6">   
+                {/** Image with a link to the project page */}
+                <Link 
+                href={"https://github.com/giuliadev95/contactlist"}
+                rel="noopener noreferrer"
+                target="_blank"
+                >
+                <div className="bg-[url('/contract-cover.png')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
+                                lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">      
+                </div>
+                </Link>
+
+                {/* Title and Languages I used*/}
+                <h3 className="text-grayLight text-2xl font-semibold mt-2">
+                    Contract Management Webapp
+                </h3>
+                <div className="flex flex-wrap gap-2 max-w-[300px] md:max-w-[500px]">
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">C#</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Asp.NET Core</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Razor Pages</span>
+                </div>
+
+                {/** Description */}
+                <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
+                    This project is currently under development and is an electronic archive for managing company contracts. 
+                    Features: each contract will be represented by an information sheet with a PDF of the document attached.
+                    <br/>
+                    {/** Links to GitHub and Live Website */}
+                </p>   
+                    <span className="flex gap-4 text-sm flex-wrap">
+                        {/** Live website */}
+                        <Link
+                        href={"https://github.com/giuliadev95/Contract-Management-System/"}
+                        rel="noopener, noreferrer"
+                        target="_blank"
+                        className="underline underline-offset-4 text-grayLight"
+                        >                
+                        GitHub repository
+                        </Link>
+                    </span>
+                <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
+            </div>
+            
+
             {/** Contact list- project container */}
             <div className="flex flex-col items-start gap-6">   
                 {/** Image with a link to the project page */}
@@ -43,6 +88,7 @@ export default function Projects() {
                     It&#39;s a simple application, but it comes with some significant challenges. 
                     <br/>
                     {/** Links to GitHub and Live Website */}
+                </p>   
                     <span className="flex gap-4 text-sm flex-wrap">
                         {/** Live website */}
                         <Link
@@ -50,11 +96,10 @@ export default function Projects() {
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
-                        >
+                        >                
                         GitHub repository
                         </Link>
                     </span>
-                </p>   
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
             
@@ -83,40 +128,38 @@ export default function Projects() {
                 </div>
                 {/** Description */}
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
-                    I created this fullstack blog to share personal tips on teaching online: 
-                    I worked with Next.js and its integration with the headless CMS Sanity, 
-                    which is based on Typescript and stores all my blog posts.
+                    A friendly blog where I share professional advice on teaching online.  
+                    I worked on integrating Next.js with the Sanity headless CMS, using GraphQL to fetch blog posts.
                     <br/>
                     <br/>
-                    I learned a lot working with types and queries to set up the CMS and fetch posts.                    <br/>
+                    I learned a lot working with types and queries to set up the CMS and fetch posts.
                     <br/>
+                </p>      
+                {/** Links to GitHub and Live Website */}
+                <span className="flex gap-4 text-sm flex-wrap">
 
-                    {/** Links to GitHub and Live Website */}
-                    <span className="flex gap-4 text-sm flex-wrap">
-
-                        {/** GitHub link: don't include, it's a private repo
-                            <Link 
-                            href={"https://github.com/giuliadev95/blog"}
-                            rel="noopener, noreferrer"
-                            target="_blank"
-                            className="underline underline-offset-4 text-grayLight"
-                            >
-                            GitHub
-                        </Link>
-                        */}
-
-                        {/** Live website */}
+                    {/** GitHub link: don't include, it's a private repo
                         <Link 
-                       // href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
-                       href={"https://blog-76ik-git-backup-pre-update-giulia-ms-projects.vercel.app/"}
+                        href={"https://github.com/giuliadev95/blog"}
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >
-                        Live website
-                        </Link>
-                    </span>
-                </p>      
+                        GitHub
+                    </Link>
+                    */}
+
+                    {/** Live website */}
+                    <Link 
+                    // href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
+                    href={"https://blog-76ik-git-backup-pre-update-giulia-ms-projects.vercel.app/"}
+                    rel="noopener, noreferrer"
+                    target="_blank"
+                    className="underline underline-offset-4 text-grayLight"
+                    >
+                    Live website
+                    </Link>
+                </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 
@@ -133,39 +176,36 @@ export default function Projects() {
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Next.js</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">React</span>
-                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Typescript</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Tailwind</span>
                 </div>
                 {/** Description */} 
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
                     A simple portfolio website, built with Next.js. 
                     I consider this a milestone in my learning journey, as it gave me 
-                    the opportunity to solidify my foundations, while also 
-                    showing my works.
+                    the opportunity to solidify my foundations and 
+                    improve my storytelling
                     <br/>
                     <br/>
-                    I tried to get a simple and professional look: the mockups I created in Figma 
-                    helped me clearly define the design before development, while keeping the project responsive.
-                    <br/> <br/>
-                    {/** Links to GitHub and Live Website */}
-                    <span className="flex gap-4 text-sm flex-wrap">
-                        {/** GitHub */}
-                        <Link 
-                        href={"https://github.com/giuliadev95/portfolio-website"}
-                        rel="noopener, noreferrer"
-                        target="_blank"
-                        className="underline underline-offset-4 text-grayLight"
-                        >GitHub
-                        </Link>
-                        {/** Live website */}
-                        <Link 
-                        href={"/"}
-                        // className="py-2 px-4 border border-grayLight rounded-lg"
-                        className="underline underline-offset-4 text-grayLight"
-                        >Live website
-                        </Link>
-                    </span>
+                    It was my first time dealing with React components and Tailwind.
                 </p>
+                {/** Links to GitHub and Live Website */}
+                <span className="flex gap-4 text-sm flex-wrap">
+                    {/** GitHub */}
+                    <Link 
+                    href={"https://github.com/giuliadev95/portfolio-website"}
+                    rel="noopener, noreferrer"
+                    target="_blank"
+                    className="underline underline-offset-4 text-grayLight"
+                    >GitHub
+                    </Link>
+                    {/** Live website */}
+                    <Link 
+                    href={"/"}
+                    // className="py-2 px-4 border border-grayLight rounded-lg"
+                    className="underline underline-offset-4 text-grayLight"
+                    >Live website
+                    </Link>
+                </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 

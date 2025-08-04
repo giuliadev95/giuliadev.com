@@ -19,7 +19,7 @@ export default function About() {
                     <br/><br/>
                     My journey began as a self-taught programmer after my bachelor's degree in Ancient Literature,
                     while I was working as a tutor.
-                    I fell in love with programming languages by chance, took CS online courses driven by my strong interest and started building software.
+                    I fell in love with programming languages, took CS online courses driven by a strong interest and started building software.
                     <br/><br/>
                     I&#39;m currently diving into C# and As.NET Core development.
                 </p>
@@ -125,15 +125,19 @@ export default function About() {
                 </h3>
                 {/* Skills names */}
                 <div className="flex flex-wrap items-center justify-start gap-4 text-[#97D4C7] font-semibold max-w-[300px] md:max-w-[500px]">
-                    <p className="px-2 py-1 w-fit rounded-xl border border-[#97D4C7]"># JavaScript</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># TypeScript</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># React</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Next.js</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Tailwind CSS</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># HTML</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># CSS</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Git</p>
-                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl"># Sanity CMS</p>
+                    <p className="px-2 py-1 w-fit rounded-xl border border-[#97D4C7]">JavaScript</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Node.js</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Express</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">React</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Next.js</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">C#</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Asp.NET Core</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">HTML</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">CSS</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Tailwind CSS</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Sanity</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Wordpress CMS</p>
+                    <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Git</p>
                 </div>
             </div>
         </div>

@@ -15,10 +15,9 @@ export default function Contact() {
                     I&apos;m currently looking for a stage in a company and collaborations,
                     to grow my skills and work with a team on new projects.
                     <br/> 
-                    For job opportunities contact me at:
+                    For job opportunities contact me or DM me on:
                 </p>
                 <ul className="text-grayLight">
-                    <li>giuliadev95@gmail.com</li>
                     <Link
                         href={"https://www.linkedin.com/in/giuliamoukouyou/"}
                         rel="noopener noreferrer"
