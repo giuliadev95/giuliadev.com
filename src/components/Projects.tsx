@@ -40,7 +40,7 @@ export default function Projects() {
                     I chose it to get started with back-end development using Node.js. 
                     I faced new challenges working with controllers and routes, and enjoyed working with React Hooks for state control. 
                     This was also my first experience with a SQL database. 
-                    It&aposs a simple application, but it comes with some significant challenges. 
+                    It&#39;s a simple application, but it comes with some significant challenges. 
                     <br/>
                     <br/>
                     {/** Links to GitHub and Live Website */}
