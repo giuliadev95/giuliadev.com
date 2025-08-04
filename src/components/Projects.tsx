@@ -42,7 +42,6 @@ export default function Projects() {
                     This was also my first experience with a SQL database. 
                     It&#39;s a simple application, but it comes with some significant challenges. 
                     <br/>
-                    <br/>
                     {/** Links to GitHub and Live Website */}
                     <span className="flex gap-4 text-sm flex-wrap">
                         {/** Live website */}
@@ -55,14 +54,12 @@ export default function Projects() {
                         GitHub repository
                         </Link>
                     </span>
-                </p>
-                
+                </p>   
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
             
             {/** Tutor life - project container */}
-            <div className="flex flex-col items-start gap-6">
-                
+            <div className="flex flex-col items-start gap-6">               
                 {/** Image with a link to the project page */}
                 <Link 
                 href={"https://blog-76ik-git-main-giulia-ms-projects.vercel.app/"}
@@ -73,7 +70,6 @@ export default function Projects() {
                                     lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">      
                     </div>
                 </Link>
-
                 {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">
                     Tutor life
@@ -85,7 +81,6 @@ export default function Projects() {
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Typescript</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Tailwind</span>
                 </div>
-
                 {/** Description */}
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
                     I created this fullstack blog to share personal tips on teaching online: 
@@ -121,8 +116,7 @@ export default function Projects() {
                         Live website
                         </Link>
                     </span>
-                </p>
-                
+                </p>      
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 
@@ -132,7 +126,6 @@ export default function Projects() {
                 <div className="bg-[url('/personal-website.png')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
                                 lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">  
                 </div>
-
                 {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">
                     This personal website
@@ -143,7 +136,6 @@ export default function Projects() {
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Typescript</span>
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Tailwind</span>
                 </div>
-
                 {/** Description */} 
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
                     A simple portfolio website, built with Next.js. 
@@ -155,11 +147,9 @@ export default function Projects() {
                     I tried to get a simple and professional look: the mockups I created in Figma 
                     helped me clearly define the design before development, while keeping the project responsive.
                     <br/> <br/>
-
                     {/** Links to GitHub and Live Website */}
                     <span className="flex gap-4 text-sm flex-wrap">
-
-                         {/** GitHub */}
+                        {/** GitHub */}
                         <Link 
                         href={"https://github.com/giuliadev95/portfolio-website"}
                         rel="noopener, noreferrer"
@@ -167,7 +157,6 @@ export default function Projects() {
                         className="underline underline-offset-4 text-grayLight"
                         >GitHub
                         </Link>
-
                         {/** Live website */}
                         <Link 
                         href={"/"}
@@ -177,7 +166,6 @@ export default function Projects() {
                         </Link>
                     </span>
                 </p>
-
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
             </div>
 

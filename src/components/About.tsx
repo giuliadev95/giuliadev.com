@@ -10,10 +10,9 @@ export default function About() {
                 <h2 id="about" className="text-white text-bold text-3xl scroll-mt-24">
                     About
                 </h2>
-
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
-                    I’m a web developer passionate about design and software. 
+                    I&#39;m a web developer passionate about design and software. 
                     I build my projects with a full-stack approach, from the mockup on Figma to 
                     the actual implementation of the code.
                     <br/><br/>
@@ -22,7 +21,7 @@ export default function About() {
                     <br/><br/>
                     My journey started as a self-taught person, 
                     studying really hard and attending courses, while strengthening my skills through 
-                    side projects. I’m currently diving deeper into Next.js and the full-stack world.
+                    side projects. I&#39;m currently diving deeper into Next.js and the full-stack world.
                 </p>
             </div>
 
