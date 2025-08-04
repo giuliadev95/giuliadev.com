@@ -8,19 +8,17 @@ export default function Projects() {
             <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8 scroll-mt-12">
                 Projects
             </h2>
-
-              {/** Contact list- project container */}
-            <div className="flex flex-col items-start gap-6">
-                
+            {/** Contact list- project container */}
+            <div className="flex flex-col items-start gap-6">   
                 {/** Image with a link to the project page */}
                 <Link 
                 href={"https://github.com/giuliadev95/contactlist"}
                 rel="noopener noreferrer"
                 target="_blank"
                 >
-                    <div className="bg-[url('/tutorlife.png')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
-                                    lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">      
-                    </div>
+                <div className="bg-[url('/contactlist.jpg')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
+                                lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">      
+                </div>
                 </Link>
 
                 {/* Title and Languages I used*/}
