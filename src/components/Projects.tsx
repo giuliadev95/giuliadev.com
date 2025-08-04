@@ -8,6 +8,59 @@ export default function Projects() {
             <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8 scroll-mt-12">
                 Projects
             </h2>
+
+              {/** Contact list- project container */}
+            <div className="flex flex-col items-start gap-6">
+                
+                {/** Image with a link to the project page */}
+                <Link 
+                href={"https://github.com/giuliadev95/contactlist"}
+                rel="noopener noreferrer"
+                target="_blank"
+                >
+                    <div className="bg-[url('/tutorlife.png')] bg-cover bg-center w-[300px] h-[200px] md:w-[500px] md:h-[300px]
+                                    lg:w-[600px] lg-[300px] rounded-lg border border-zinc-500">      
+                    </div>
+                </Link>
+
+                {/* Title and Languages I used*/}
+                <h3 className="text-grayLight text-2xl font-semibold mt-2">
+                    Contact List
+                </h3>
+                <div className="flex flex-wrap gap-2 max-w-[300px] md:max-w-[500px]">
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Node.js</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Express</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">React</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">PosgreSQL</span>
+                    <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">CSS</span>
+                </div>
+
+                {/** Description */}
+                <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
+                    This is a webapp for viewing, inserting, editing, and deleting contacts
+                    from a list. The project allowed me to gain a better understanding of how software works,
+                    I chose it to get started with back-end development using Node.js. 
+                    I faced new challenges working with controllers and routes, and enjoyed working with React Hooks for state control. 
+                    This was also my first experience with a SQL database. 
+                    It's a simple application, but it comes with some significant challenges. 
+                    <br/>
+                    <br/>
+                    {/** Links to GitHub and Live Website */}
+                    <span className="flex gap-4 text-sm flex-wrap">
+                        {/** Live website */}
+                        <Link
+                        href={"https://github.com/giuliadev95/contactlist/"}
+                        rel="noopener, noreferrer"
+                        target="_blank"
+                        className="underline underline-offset-4 text-grayLight"
+                        >
+                        GitHub repository
+                        </Link>
+                    </span>
+                </p>
+                
+                <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
+            </div>
             
             {/** Tutor life - project container */}
             <div className="flex flex-col items-start gap-6">
