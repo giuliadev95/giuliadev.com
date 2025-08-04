@@ -13,11 +13,11 @@ export default function About() {
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
                     I&#39;m a versatile web developer with one year of experience working on side projects like websites and web apps.
-                    I've worked with Node.js / Express, React, and SQL databases.
+                    I&#39;ve worked with Node.js / Express, React, and SQL databases.
                     <br></br>
                     I take care of the entire process, from designing prototype mockups on Figma, to defining the system architecture and finally writing the code.
                     <br/><br/>
-                    My journey began as a self-taught programmer after my bachelor's degree in Ancient Literature,
+                    My journey began as a self-taught programmer after my bachelor&#39;s degree in Ancient Literature,
                     while I was working as a tutor.
                     I fell in love with programming languages, took CS online courses driven by a strong interest and started building software.
                     <br/><br/>
