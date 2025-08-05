@@ -15,7 +15,7 @@ export default function About() {
                     Ho imparato a programmare da autodidatta, realizzando siti e web app partendo
                     dal design fino alla scrittura del codice.
                     Sono appassionata di sviluppo software, motivo per cui vorrei portare le mie competenze e
-                    la mia voglia di imparare all'interno di un'azienda, entrando in un team.
+                    la mia voglia di imparare all&#39;interno di un&#39;azienda, entrando in un team.
                     <br></br>
                     <br></br>
                     Il mio stack principale si basa su JavaScript: lavoro con Node.js / Express, React, Next.js e database SQL.

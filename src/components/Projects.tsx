@@ -95,7 +95,7 @@ export default function Projects() {
                     e ho gestito lo stato e il fetch dei contatti con i React Hooks.
                     <br/>
                     <br/>
-                    Pur essendo una webapp semplice, è stata un'occasione per superare molte sfide.
+                    Pur essendo una webapp semplice, è stata un&#39;occasione per superare molte sfide.
                     <br/>
                     {/** Links to GitHub and Live Website */}
                 </p>   
@@ -245,7 +245,7 @@ export default function Projects() {
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
                     Questa landing page è stata una sfida del programma Frontend Mentor 
                     e ha un look professionale e pulito.
-                    La navigazione è fluida e intuitiva, ho disposto gli elementi in un layout ordinato grazie all'uso di CSS Grid e Flexbox.
+                    La navigazione è fluida e intuitiva, ho disposto gli elementi in un layout ordinato grazie all&#39;uso di CSS Grid e Flexbox.
                     Sono presenti tag che garantiscono accessibilità.
                     <br/>
                     <br/>
