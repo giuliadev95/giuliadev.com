@@ -6,10 +6,10 @@ export default function Projects() {
         <div className="flex flex-col items-center gap-8">
             {/** Projects */}
             <h2 id="projects" className="text-white font-bold text-3xl p-4 mb-8 scroll-mt-12">
-                Projects
+                Progetti
             </h2>
 
-<div className="flex flex-col items-start gap-6">   
+            <div className="flex flex-col items-start gap-6">   
                 {/** Image with a link to the project page */}
                 <Link 
                 href={"https://github.com/giuliadev95/Contract-Management-System/"}
@@ -23,7 +23,7 @@ export default function Projects() {
 
                 {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">
-                    Contract Management Webapp
+                    Contract Manager
                 </h3>
                 <div className="flex flex-wrap gap-2 max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">C#</span>
@@ -33,8 +33,12 @@ export default function Projects() {
 
                 {/** Description */}
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
-                    This project is currently under development and is an electronic archive for managing company contracts. 
-                    Features: each contract will be represented by an information sheet with a PDF of the document attached.
+                    Questo progetto è in fase di sviluppo e consiste in un archivio di contratti, dove 
+                    è possibile loggarsi e gestire i propri documenti. 
+                    <br/>
+                    <br/>
+                    Ogni contratto è rappresentato da una scheda
+                    con informazioni dettagliate, alla quale è allegato il pdf del contratto stesso.
                     <br/>
                     {/** Links to GitHub and Live Website */}
                 </p>   
@@ -46,7 +50,7 @@ export default function Projects() {
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >                
-                        GitHub repository
+                        GitHub
                         </Link>
                     </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
@@ -80,12 +84,18 @@ export default function Projects() {
 
                 {/** Description */}
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
-                    This is a webapp for viewing, inserting, editing, and deleting contacts
-                    from a list. The project allowed me to gain a better understanding of how software works,
-                    I chose it to get started with back-end development using Node.js. 
-                    I faced new challenges working with controllers and routes, and enjoyed working with React Hooks for state control. 
-                    This was also my first experience with a SQL database. 
-                    It&#39;s a simple application, but it comes with some significant challenges. 
+                    Webapp per creare una lista dove inserire, modificare ed eliminare
+                    dei contatti. Questo progetto mi ha permesso di capire il funzionamento complessivo di un software
+                    ed è stato il mio tramplino di lancio verso lo sviluppo in Node.js.
+                    <br/>
+                    <br/>
+                    Ho imparato a strutturare il back-end in controllers e routes, scrivendo API RESTful
+                    per ricevere dati dal database SQL.
+                    Ho usato React nel front-end per avere la velocità di una SPA
+                    e ho gestito lo stato e il fetch dei contatti con i React Hooks.
+                    <br/>
+                    <br/>
+                    Pur essendo una webapp semplice, è stata un'occasione per superare molte sfide.
                     <br/>
                     {/** Links to GitHub and Live Website */}
                 </p>   
@@ -128,11 +138,13 @@ export default function Projects() {
                 </div>
                 {/** Description */}
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
-                    A friendly blog where I share professional advice on teaching online.  
-                    I worked on integrating Next.js with the Sanity headless CMS, using GraphQL to fetch blog posts.
+                    Un blog dedicato ai consigli per lavorare come insegnante online, costruito con Next.js e Tailwind
+                    per essere veloce e reattivo.
+                    Mi è piaciuto curare il web design, facendo i mockup su Figma e traducendoli in interfacce utente pixel per pixel. 
                     <br/>
                     <br/>
-                    I learned a lot working with types and queries to set up the CMS and fetch posts.
+                    La sfida è stata integrare al progetto il database dei post, che è Sanity, un CMS Headless basato
+                    su GraphQL per il fetch dei dati.
                     <br/>
                 </p>      
                 {/** Links to GitHub and Live Website */}
@@ -157,7 +169,7 @@ export default function Projects() {
                     target="_blank"
                     className="underline underline-offset-4 text-grayLight"
                     >
-                    Live website
+                    Sito live
                     </Link>
                 </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
@@ -171,7 +183,7 @@ export default function Projects() {
                 </div>
                 {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">
-                    This personal website
+                    Sito web portoflio
                 </h3>
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">Next.js</span>
@@ -180,13 +192,10 @@ export default function Projects() {
                 </div>
                 {/** Description */} 
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
-                    A simple portfolio website, built with Next.js. 
-                    I consider this a milestone in my learning journey, as it gave me 
-                    the opportunity to solidify my foundations and 
-                    improve my storytelling
+                    Un portfolio minimal, costruito con Next.js, progettato in maniera modulare e intuitiva.
+                    Costruendolo, ho imparato a usare i componenti React.
                     <br/>
                     <br/>
-                    It was my first time dealing with React components and Tailwind.
                 </p>
                 {/** Links to GitHub and Live Website */}
                 <span className="flex gap-4 text-sm flex-wrap">
@@ -203,7 +212,7 @@ export default function Projects() {
                     href={"/"}
                     // className="py-2 px-4 border border-grayLight rounded-lg"
                     className="underline underline-offset-4 text-grayLight"
-                    >Live website
+                    >Sito live
                     </Link>
                 </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
@@ -224,7 +233,7 @@ export default function Projects() {
 
                 {/* Title and Languages I used*/}
                 <h3 className="text-grayLight text-2xl font-semibold mt-2">
-                    Minimalist Portfolio
+                    Landing Page
                 </h3>
                 <div className="flex flex-wrap gap-2  max-w-[300px] md:max-w-[500px]">
                     <span className="px-4 py-1 text-sm rounded-full border border-grayLight text-grayLight">HTML</span>
@@ -234,14 +243,14 @@ export default function Projects() {
 
                 {/** Description */}
                 <p className="font-normal text-grayLight w-[300px] md:w-[500px]">
-                    This is a static portfolio page I built at the beginning of my journey, 
-                    to test my responsive design skills, 
-                    focusing on CSS flexbox and grid.
+                    Questa landing page è stata una sfida del programma Frontend Mentor 
+                    e ha un look professionale e pulito.
+                    La navigazione è fluida e intuitiva, ho disposto gli elementi in un layout ordinato grazie all'uso di CSS Grid e Flexbox.
+                    Sono presenti tag che garantiscono accessibilità.
                     <br/>
                     <br/>
-                    Also, here I did my first tests with DOM manipulation: using JavaScript, 
-                    I implemented the opening of the mobile menu and replaced the images 
-                    of the projects when resizing the web page.
+                    Il menu mobile e il rendering di immagini diverse a seconda della grandezza dello schermo sono stati gestiti con
+                    la manipolazione del DOM in JavaScript puro.
                     <br/> <br/>
 
                     {/** Links to GitHub and Live Website */}
@@ -262,7 +271,7 @@ export default function Projects() {
                         rel="noopener, noreferrer"
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
-                        >Live website
+                        >Sito live
                         </Link>
                     </span>
                 </p>

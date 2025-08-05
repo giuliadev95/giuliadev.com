@@ -8,22 +8,24 @@ export default function About() {
             {/** About me Presentation */}
             <div className="flex flex-col gap-8 py-20 items-center justify-center mx-8">
                 <h2 id="about" className="text-white text-bold text-3xl scroll-mt-24">
-                    About
+                    Chi sono
                 </h2>
                 {/** Description */}
                 <p className="text-grayLight max-w-[500px]">
-                    I&#39;m a versatile web developer who enjoys working hands-on across the stack, from backend and frontend to UI and web design.
+                    Ho imparato a programmare da autodidatta, realizzando siti e web app partendo
+                    dal design fino alla scrittura del codice.
+                    Sono appassionata di sviluppo software, motivo per cui vorrei portare le mie competenze e
+                    la mia voglia di imparare all'interno di un'azienda, entrando in un team.
                     <br></br>
                     <br></br>
-                    I love building things.
-                    I&#39;ve worked on websites made with Next.js, and on webapps made with Node.js / Express, React, and SQL databases.
-                    I&#39;m currently diving into C# and As.NET Core development.
+                    Il mio stack principale si basa su JavaScript: lavoro con Node.js / Express, React, Next.js e database SQL.
+                    Non smetto mai di imparare, perciò ho iniziato a sviluppare anche in C# e Asp.NET Core.
                     <br></br>
-                    I take care of the entire process, from designing prototype mockups on Figma, to defining the system architecture and finally writing the code.
                     <br/><br/>
-                    My journey began as a self-taught programmer after my bachelor&#39;s degree in Ancient Literature,
-                    while I was working as a tutor.
-                    I fell in love with programming languages, took CS online courses driven by a strong interest and started building software.       
+                    Laureata triennale in Lettere antiche, ho sempre sentito un profondo interesse
+                    per il lavoro sui linguaggi e la mia transizione verso la programmazione è stata naturale.
+                    Sono una fan della fantascienza e nel tempo libero leggo science fiction e mi tuffo in un
+                    episodio di Star Trek.
                 </p>
             </div>
 
@@ -114,16 +116,9 @@ export default function About() {
             </div>
             */}
 
-            {/** Courses I attended: dynamic list with props */}
-            <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
-                <CourseList/>
-            </div>
-
-
-            {/** My skills */}
-            <div className="flex flex-col gap-8 pb-20 justify-center items-start max-w-fit mx-auto">
+            <div className="flex flex-col gap-8 pb-20 justify-center items-center max-w-fit mx-auto">
                 <h3 id="skills" className="text-white text-bold text-3xl scroll-mt-24">
-                    My skills
+                    Il mio stack
                 </h3>
                 {/* Skills names */}
                 <div className="flex flex-wrap items-center justify-start gap-4 text-[#97D4C7] font-semibold max-w-[300px] md:max-w-[500px]">
@@ -142,6 +137,16 @@ export default function About() {
                     <p className="px-2 py-1 w-fit border border-[#97D4C7] rounded-xl">Git</p>
                 </div>
             </div>
+            {/** Courses I attended: dynamic list with props */}
+            <div className="flex flex-col gap-8 pb-20 items-center justify-center mx-8">
+                <h3 className="text-white text-bold text-3xl scroll-mt-24">
+                    Corsi di formazione seguiti
+                </h3>
+                <CourseList/>
+            </div>
+
+
+            {/** My skills */}
         </div>
     )
 }

@@ -5,19 +5,19 @@ export default function Contact() {
         <div className="flex flex-col items-center gap-8 mx-auto w-[300px] h-[200px] md:w-[500px] md:h-[300px]">
             {/** Contact */}
             <h2 id="contact" className="text-green font-bold text-3xl">
-                Contact
+                Contatti
             </h2>
             <div className="flex flex-col items-start justify-start gap-6">
                 <h3 className="text-white font-bold text-2xl">
-                        Let&apos;s get in touch!
+                        Mi piacerebbe entrare in un team
                 </h3>
                 <p className="text-grayLight">
-                    I&apos;m currently looking for a stage in a company and collaborations,
-                    to grow my skills and work with a team on new projects.
+                    Sono alla ricerca di un percorso di stage aziendale per portare le mie skills a un livello professionale
+                    e contribuire a nuovi progetti collaborando in squadra.
                     <br/> 
-                    For job opportunities contact me or DM me on:
+                    Per opportunità di stage / internship scrivimi pure in DM su LinkedIn o Instagram:
                 </p>
-                <ul className="text-grayLight">
+                <ul className="text-grayLight flex gap-x-2 underline">
                     <Link
                         href={"https://www.linkedin.com/in/giuliamoukouyou/"}
                         rel="noopener noreferrer"

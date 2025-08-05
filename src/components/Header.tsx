@@ -11,19 +11,19 @@ export default function Header () {
                 <nav className="flex items-center justify-between px-5 py-4 text-white border-b-zinc-300 font-base text-sm>
                     md:mx-[10rem] lg:mx-[20rem] xxl:mx-[30rem] z-9999 ">
                     <Link href={"/"} className="">
-                    Home
+                        Home
                     </Link>
                     <Link href={"/#about"}>
-                        About
+                        Chi sono
                     </Link>
                     <Link href={"/#skills"}>
                         Skills
                     </Link>
                     <Link href={"/#projects"}>
-                        Projects
+                        Progetti
                     </Link>
                     <Link href={"/#contact"}>
-                        Contact
+                        Contatti
                     </Link>
                 </nav>
             </div>           
