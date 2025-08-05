@@ -86,7 +86,7 @@ export default function Projects() {
                 <p className="font-normal text-zinc-400 w-[300px] md:w-[500px]">
                     Webapp per creare una lista dove inserire, modificare ed eliminare
                     dei contatti. Questo progetto mi ha permesso di capire il funzionamento complessivo di un software
-                    ed è stato il mio tramplino di lancio verso lo sviluppo in Node.js.
+                    ed è stato il mio trampolino di lancio verso lo sviluppo in Node.js.
                     <br/>
                     <br/>
                     Ho imparato a strutturare il back-end in controllers e routes, scrivendo API RESTful
