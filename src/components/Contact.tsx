@@ -12,9 +12,6 @@ export default function Contact() {
                         Mi piacerebbe entrare in un team
                 </h3>
                 <p className="text-grayLight">
-                    Sono alla ricerca di un percorso di stage aziendale per portare le mie skills a un livello professionale
-                    e contribuire a nuovi progetti collaborando in squadra.
-                    <br/> 
                     Per opportunità di stage / internship scrivimi pure in DM su LinkedIn o Instagram:
                 </p>
                 <ul className="text-grayLight flex gap-x-2 underline">
