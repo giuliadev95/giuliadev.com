@@ -107,7 +107,7 @@ export default function Projects() {
                         target="_blank"
                         className="underline underline-offset-4 text-grayLight"
                         >                
-                        GitHub repository
+                        GitHub
                         </Link>
                     </span>
                 <hr className="bg-slate-600 w-[100%] h-[1px] my-16"/>
