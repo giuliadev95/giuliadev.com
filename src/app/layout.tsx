@@ -1,28 +1,33 @@
 import type { Metadata } from "next";
-import "./globals.css";
-import Header from "@/components/Header";
+import "../styles/globals.css"
+import NavBar from "@/components/Navbar";
+// import Footer.tsx
 
 export const metadata: Metadata = {
-  title: "Giulia Moukouyou | Web Developer",
+  title: "Giulia Moukouyou | Front End Developer",
   description:
-    "Giulia Moukouyou | Web Developer - creo siti web da zero, progettando il design e scrivendo il codice. Le mie tecnologie sono: React, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind, Figma e Git.",
+    "Giulia Moukouyou | Front End Developer | React, JavaScript, Node.js, Express, PostgreSQL, Tailwind, Bootstrap, HTML, CSS, GIT, Figma - ",
   keywords: [
     "Giulia Moukouyou",
     "web developer",
     "sviluppo web",
+    "Front End",
+    "Front-End",
+    "front end",
     "front-end",
     "React",
     "Next.js",
     "JavaScript",
-    "TypeScript",
     "HTML",
     "CSS",
     "Tailwind",
-    "Git"
+    "Bootstap",
+    "Git",
+    "Figma"
   ],
   authors: [{ name: "Giulia Moukouyou", url: "https://www.giuliadev.com/"}],
   openGraph: {
-    title: "Giulia Moukouyou | Web Developer",
+    title: "Giulia Moukouyou | Front End Developer",
     description:
     "Giulia Moukouyou | Web Developer - creo siti web da zero, progettando il design e scrivendo il codice. Le mie tecnologie sono: React, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind, Figma e Git.",
     url:" https://www.giuliadev.com/",
@@ -32,7 +37,7 @@ export const metadata: Metadata = {
         url: " ",
         width: 1200,
         height: 630,
-        alt: "Giulia Moukouyou | Web Developer",
+        alt: "Giulia Moukouyou | Front End Developer",
       },
     ],
     locale: "en_US",
@@ -40,9 +45,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Giulia Moukouyou | Web Developer",
+    title: "Giulia Moukouyou | Front End Developer",
     description:
-    "Giulia Moukouyou | Web Developer - creo siti web da zero, progettando il design e scrivendo il codice. Le mie tecnologie sono: React, Next.js, JavaScript, TypeScript, HTML, CSS, Tailwind, Figma e Git.",
+    "Giulia Moukouyou | Front End Developer | Creo siti web e web app",
     images: [""],
   },
   metadataBase: new URL("https://www.giuliadev.com"),
@@ -61,11 +66,15 @@ export default function RootLayout({
     </head>
       <body>
         <header>
-          <Header/>
+          {/** <Header/> */}  
+          <NavBar/>   
         </header>
         <main>
           {children}
-        </main>     
+        </main>    
+        <footer>
+         {/** <Footer/> */}   
+        </footer> 
       </body>
     </html>
   );

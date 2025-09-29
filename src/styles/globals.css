@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colour palette */
+:root {
+
+}
+
+*{
+   border: 1px solid red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
