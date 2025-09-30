@@ -17,16 +17,17 @@ export default {
 
       },
       fontFamily: {
-        // font-sans
-      },
+      poppins: ["var(--font-poppins)"]      
+    },
 
       fontWeight: {
+        thin: "100",
         normal: "400",
         bold: "700"
       },
       fontSize: {
         h1Mobile: "1.5rem",
-        h2Mobile: "2rem",
+        h2Mobile: "1.313rem",
         h3Mobile: "1.125rem",
         textMobile: "1rem",
         textSmallMobile: ".875rem"

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "../styles/globals.css"
 import NavBar from "@/components/Navbar";
-// import Footer.tsx
+import "../styles/globals.css"
+import { Poppins } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Giulia Moukouyou | Front End Developer",
@@ -52,6 +52,13 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://www.giuliadev.com"),
 };
+
+// Popping font
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"], // font weights
+  variable: "--font-poppins",
+});
 
 export default function RootLayout({
   children,
