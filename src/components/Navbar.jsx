@@ -10,7 +10,6 @@ import { FaBriefcase } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";
 import { RiContactsBook3Fill } from "react-icons/ri";
-
 import Link from "next/link";
 
 export default function NavBar() {
@@ -71,14 +70,19 @@ export default function NavBar() {
                             Ciao, sono Giulia Moukouyou e sono una sviluppatrice Front End Junior 👋</p>
                         <ul className="flex justify-center items-center gap-4">
                             <li>
-                                <BiLogoLinkedin
-                                    className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
-                                />
+                                <a target="_blank" href="https://www.linkedin.com/in/giuliamoukouyou/" rel="noopener noreferrer">
+                            
+                                    <BiLogoLinkedin
+                                        className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
+                                    />
+                                </a>
                             </li>
                             <li>
-                                <FaGithub
-                                    className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
-                                />
+                                 <a target="_blank" href="https://github.com/giuliadev95" rel="noopener noreferrer">
+                                    <FaGithub
+                                        className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
+                                    />
+                                </a>
                             </li>
                         </ul>
                         <ul>
