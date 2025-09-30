@@ -9,15 +9,31 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        grayLight: 'var(--grayLight)',
-        green: 'var(--green)',
-        violet: 'var(--violet)',
-        yellow: 'var(--yellow)',
-        white: 'var(--white)',
+        lightGreen: '#54b689', // href, CTA buttons
+        darkGreen:'#6ec19b', // CTA buttons hover, navbar-href: hover, navbar-href:current
+        lightGrey: '#4f4f4f', // body-text, CTA buttons
+        darkGrey:'#292929', // h1, h2, h3, h4... / CTA buttons:hover
+        white:'#ffffff', // background, buttons' text
+
       },
-      screens: {
-        xxl: '2560px',
+      fontFamily: {
+        // font-sans
+      },
+
+      fontWeight: {
+        normal: "400",
+        bold: "700"
+      },
+      fontSize: {
+        h1Mobile: "1.5rem",
+        h2Mobile: "2rem",
+        h3Mobile: "1.125rem",
+        textMobile: "1rem",
+        textSmallMobile: ".875rem"
+      },
+      lineHeight: {
+        normal: "1.5rem",
+        thin: "1.313rem"
       }
     },
   },

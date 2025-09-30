@@ -8,10 +8,14 @@
 }
 
 *{
-   border: 1px solid red;
-}
+  box-sizing: border-box;
+  /*
+    border: red;
+  */
+  }
 
 html {
   scroll-behavior: smooth;
 }
+
 
