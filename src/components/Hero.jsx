@@ -18,9 +18,9 @@ export default function Hero() {
                         <FaCode className="text-lightGreen font-bold" />
                     </span>
 
-                    <h2 className="text-[28px] md:text-[36px] font-bold text-darkGrey">
+                    <h1 className="text-[28px] md:text-[36px] font-bold text-darkGrey">
                         Front-End Developer
-                    </h2>
+                    </h1>
 
                     <p className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
                         Sono una sviluppatrice web specializzata sul front-end, 

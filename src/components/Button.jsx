@@ -8,7 +8,7 @@ export default function Button({color, icon, text}) {
                             <button
                                 type="button"
                                 onClick={() => {}}
-                                className="bg-lightGreen text-white text-[1rem] font-bold flex items-center gap-3 justify-center rounded-lg py-2 px-6"
+                                className="bg-lightGreen text-white text-[1rem] font-bold flex items-center gap-3 justify-center rounded-lg p-2"
                             >
                                 {icon}
                                 {text}
