@@ -54,7 +54,6 @@ export default function NavBar() {
                                 }}
                             />
                            {/* <h1 className="text-h1Mobile text-white font-bold">Front End Developer</h1>*/}
-
                         </>
                     )
                 }
@@ -85,6 +84,7 @@ export default function NavBar() {
                                 </a>
                             </li>
                         </ul>
+                        <hr className="min-w-[10rem] text-white font-semibold"/>
                         <ul>
                             <li>
                                 <Link 
