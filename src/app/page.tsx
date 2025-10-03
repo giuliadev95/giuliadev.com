@@ -1,9 +1,10 @@
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
-  <main className=" relative top-20 -z-50">
+  <main className=" pt-[80px] min-w-[100%] mx-auto">
     {/**
       * components here
       * <About : =>  (<Button/>) />
@@ -19,6 +20,7 @@ export default function Home() {
       */}
       <Hero/>
       <About/>
+      <Experience/>
 </main>
   );
 }

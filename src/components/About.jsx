@@ -17,7 +17,7 @@ export default function About() {
         <>
             <section className="bg-white px-4 lg:px-16 xl:px-64 py-8 flex flex-col items-center justify-center gap-4 mt-12 scroll-mt-20 max-w-[100rem]" id="about">
                 {/** Title */}
-                <h2 className="text-[32px] md:text-[36px] font-bold text-darkGrey border-l-4 pl-6 border-lightGreen self-start">Chi sono</h2>
+                <h2 className="text-[32px] md:text-[36px] font-bold text-darkGrey self-start border-l-4 pl-6 border-lightGreen">Chi sono</h2>
                 {/** Description about me */}
 
                 <p  className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
@@ -40,8 +40,8 @@ export default function About() {
                 <br/>
 
                 {/* Stack tecnologico */ }
-                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4">
-                    Stack tecnologico
+                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey self-start mb-4">
+                # Stack tecnologico
                 </h3>
                 <ul className="flex flex-wrap items-start justify-start gap-4 self-start mt-2">
                     <li className="flex flex-col gap-2 items-start justify-start">
@@ -79,8 +79,8 @@ export default function About() {
                 </ul>
 
                 {/* Strumenti */ }
-                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4 mt-12">
-                    Strumenti
+                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey self-start mb-4 mt-12">
+                    # Strumenti
                 </h3>
                 <ul className="flex flex-wrap items-start justify-start gap-4 self-start">
                     <li className="flex flex-col gap-2 items-start justify-start">

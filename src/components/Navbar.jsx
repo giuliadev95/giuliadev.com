@@ -30,7 +30,7 @@ export default function NavBar() {
     // return the body
     return(
         <>
-            <div className="lg:hidden flex justify-start items-center gap-4 min-w-[100%] h-20 p-[1rem] bg-lightGreen fixed top-0 left-0 ">
+            <div className="lg:hidden flex justify-start items-center gap-4 min-w-[100%] h-20 p-[1rem] bg-lightGreen fixed top-0 left-0">
                 {
                     !showNavbar ? (
                         <>
