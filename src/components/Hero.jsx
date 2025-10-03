@@ -7,7 +7,7 @@ export default function Hero() {
     return (
         // Section to contain the Hero section
         <section className="bg-[#fafafa] px-4 lg:px-16 xl:px-64 py-8">
-            <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between md:gap-16">
+            <div className="flex flex-col items-center gap-8 md:flex-row md:justify-between md:gap-16 max-w-[70rem]">
                 
                 {/* Text about me */}
                 <div className="flex flex-col gap-6 max-w-xl">
