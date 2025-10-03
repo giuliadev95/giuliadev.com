@@ -12,8 +12,6 @@ import { IoSchool } from "react-icons/io5";
 import { RiContactsBook3Fill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
 
-import Link from "next/link";
-
 export default function NavBar() {
     // Set the nav menu as invisible by default (false)
     const [showNavbar, setShownavbar] = useState(false);
@@ -82,54 +80,54 @@ export default function NavBar() {
                             <hr className="min-w-[10rem] text-white font-semibold"/>
                             <ul className="flex flex-col gap-4">
                                 <li>
-                                    <Link 
+                                    <a 
                                         href="#about" 
                                         onClick={()=> setShownavbar(false)}
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                     >
                                         <FaUser/>
                                         Chi sono
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link 
+                                    <a 
                                         href="#experience" 
                                         onClick={()=> setShownavbar(false)} 
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                         >
                                             <FaBriefcase/>
                                         Esperienza
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link 
+                                    <a 
                                         href="#projects" 
                                         onClick={()=> setShownavbar(false)}
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                     >
                                         <FaCode />
                                         Progetti
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link 
+                                    <a 
                                         href="#education" 
                                         onClick={()=> setShownavbar(false)}
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                     >
                                         <IoSchool/>
                                         Educazione
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link
+                                    <a
                                         href="#contacts" 
                                         onClick={()=> setShownavbar(false)}
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                     >
                                         <RiContactsBook3Fill/>
                                         Contatti
-                                    </Link>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -139,54 +137,54 @@ export default function NavBar() {
             <div className="hidden lg:px-16 xl:px-64 lg:flex justify-start items-center gap-4 min-w-[100%] h-20 p-[1rem] bg-lightGreen fixed top-0 left-0 font-poppins">
                 <ul className="flex gap-10">
                     <li>
-                        <Link 
+                        <a 
                             href="#about" 
                             onClick={()=> setShownavbar(false)}
                             className="flex items-center justify-center gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                         >
                             <FaUser/>
                             Chi sono
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link 
+                        <a 
                             href="#experience" 
                             onClick={()=> setShownavbar(false)} 
                             className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                             >
                                 <FaBriefcase/>
                             Esperienza
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link 
+                        <a 
                             href="#projects" 
                             onClick={()=> setShownavbar(false)}
                             className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                         >
                             <FaCode />
                             Progetti
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link 
+                        <a 
                             href="#education" 
                             onClick={()=> setShownavbar(false)}
                             className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                         >
                             <IoSchool/>
                             Educazione
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link
+                        <a
                             href="#contacts" 
                             onClick={()=> setShownavbar(false)}
                             className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                         >
                             <RiContactsBook3Fill/>
                             Contatti
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>     
