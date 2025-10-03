@@ -46,9 +46,9 @@ export default function Hero() {
                 {/* My profile image */}
                 <div className="flex-shrink-0 self-start">
                     <img 
-                        src="./fotoQuadrata.jpeg"
+                        src="./foto_bg_removed.png"
                         alt="Foto di Giulia"
-                        className="w-[200px] h-[200px] md:w-[280px] md:h-[280px] rounded-lg shadow-lg object-cover"
+                        className="w-[200px] h-[200px] md:w-[280px] md:h-[280px]"
                     />
                 </div>
             </div>
