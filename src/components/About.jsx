@@ -40,59 +40,59 @@ export default function About() {
                 <br/>
 
                 {/* Stack tecnologico */ }
-                <h3 className="text-[32px] md:text-[36px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4">
+                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4">
                     Stack tecnologico
                 </h3>
                 <ul className="flex flex-wrap items-start justify-start gap-4 self-start mt-2">
                     <li className="flex flex-col gap-2 items-start justify-start">
-                        <FaJs size={"4rem"} color={"#222222"}/>
+                        <FaJs size={"2rem"} color={"#FFD600"}/>
                         <span>JavaScript</span>
                     </li>
                     <li className="flex flex-col gap-2">
-                        <RiReactjsLine size={"4rem"} color={"#222222"}/>
+                        <RiReactjsLine size={"2rem"} color={"#62d4fa"}/>
                         <span>React</span>
                     </li>
                     <li className="flex flex-col gap-2">
-                        <FaNodeJs size={"4rem"} color={"#222222"}/>
+                        <FaNodeJs size={"2rem"} color={"#54B689"}/>
                         <span>Node.js</span>
                     </li>
                     <li className="flex flex-col gap-2">
-                        <BiLogoPostgresql size={"4rem"} color={"#222222"}/>
+                        <BiLogoPostgresql size={"2rem"} color={"#326791"}/>
                         PostgreSQL
                     </li>
                     <li className="flex flex-col gap-2">
-                        <RiTailwindCssFill size={"4rem"} color={"#222222"}/>
+                        <RiTailwindCssFill size={"2rem"} color={"#37BDF8"}/>
                         Tailwind
                     </li>
                     <li className="flex flex-col gap-2">
-                        <FaBootstrap size={"4rem"} color={"#222222"}/>
+                        <FaBootstrap size={"2rem"} color={"#6E2BF5"}/>
                         Bootstrap
                     </li>
                     <li className="flex flex-col gap-2">
-                        <FaHtml5 size={"4rem"} color={"#222222"}/>
+                        <FaHtml5 size={"2rem"} color={"#EF6931"}/>
                         HTML
                     </li>
                     <li className="flex flex-col gap-2">
-                        <IoLogoCss3 size={"4rem"} color={"#222222"}/>
+                        <IoLogoCss3 size={"2rem"} color={"#3BAEDE"}/>
                         CSS
                     </li>
                 </ul>
 
                 {/* Strumenti */ }
-                <h3 className="text-[32px] md:text-[36px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4 mt-12">
+                <h3 className="text-[24px] md:text-[30px] font-medium text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4 mt-12">
                     Strumenti
                 </h3>
                 <ul className="flex flex-wrap items-start justify-start gap-4 self-start">
                     <li className="flex flex-col gap-2 items-start justify-start">
-                        <VscVscode size={"4rem"} color={"#222222"}/>
+                        <VscVscode size={"2rem"} color={"#1C7CBC"}/>
                         <span>VS Code</span>
                     </li>
                     <li className="flex flex-col gap-2">
-                        <FaSquareGit size={"4rem"} color={"#222222"}/>
+                        <FaSquareGit size={"2rem"} color={"#F05033"}/>
                         <span>GIT</span>
                     </li>
                     <li className="flex flex-col gap-2">
-                        <PiFigmaLogoBold size={"4rem"} color={"#222222"}/>
+                        <PiFigmaLogoBold size={"2rem"} color={"#222222"}/>
                         <span>Figma</span>
                     </li>         
                 </ul>
