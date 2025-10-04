@@ -17,11 +17,14 @@ export default function Experience() {
     
     return(
         <>
-            <section className="bg-white px-4 lg:px-16 xl:px-64 py-8 flex flex-col items-center justify-center gap-4 mt-12 scroll-mt-20 max-w-[100rem]" id="experience">
+            <section className="bg-[#fafafa] px-4 lg:px-16 xl:px-64 py-8 flex flex-col items-center justify-center gap-4 mt-12 scroll-mt-20 " id="experience">
                 
                 {/** Title: Esperienza lavorativa */}
                 <h2 className="text-[32px] md:text-[36px] font-bold text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4">Esperienza lavorativa</h2>
                 
+                <div className="max-w-[84rem] pr-4 lg:pr-16 xl:pr-64 self-start">
+
+              
                 {/* Focus Informatica */ }
                 <div className="text-darkGrey  pl-6 self-start mb-4">
                     <div className= "flex items-center justify-start gap-4 "> 
@@ -148,6 +151,8 @@ export default function Experience() {
                         </p>
                     </div>
                 </div>
+
+              </div>
             </section>
         </>
     )
