@@ -46,6 +46,8 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github}
                         {github && 
                             <Link 
                                 href={github}
+                                target="_blank" 
+                                rel="noopener noreferrer"
                                 className="py-1 px-4 bg-lightGreen text-white border-darkGreen rounded-2xl"
                             >
                                 Vai al progetto
