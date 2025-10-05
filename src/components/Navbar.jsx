@@ -5,7 +5,6 @@ import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
-import { IoDocumentTextSharp } from "react-icons/io5";
 import { FaBriefcase } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 import { IoSchool } from "react-icons/io5";

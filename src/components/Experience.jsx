@@ -17,14 +17,13 @@ export default function Experience() {
     
     return(
         <>
-            <section className="bg-[#fafafa] px-4 lg:px-16 xl:px-64 py-8 flex flex-col items-center justify-center gap-4 mt-12 scroll-mt-20 " id="experience">
+            <section className="bg-[#fafafa] px-4 lg:px-16 xl:px-64 py-8 flex flex-col items-center justify-center gap-4 mt-12 scroll-mt-20 min-w-full" id="experience">
                 
                 {/** Title: Esperienza lavorativa */}
                 <h2 className="text-[32px] md:text-[36px] font-bold text-darkGrey border-l-4 pl-6 border-lightGreen self-start mb-4">Esperienza lavorativa</h2>
                 
-                <div className="max-w-[84rem] pr-4 lg:pr-16 xl:pr-64 self-start">
-
-              
+            <div className="max-w-[84rem] pr-4 lg:pr-16 xl:pr-64 self-start">
+         
                 {/* Focus Informatica */ }
                 <div className="text-darkGrey  pl-6 self-start mb-4">
                     <div className= "flex items-center justify-start gap-4 "> 
@@ -93,7 +92,6 @@ export default function Experience() {
                     </div>
                 </div>
 
-
                {/* GoStudent */ }
                 <div className="text-darkGrey  pl-6 self-start mb-4">
                     <div className= "flex items-center justify-start gap-4 "> 
@@ -139,20 +137,24 @@ export default function Experience() {
                     >
                         <p className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
                             Ho svolto la professione di insegnante di ripetizioni in materie classiche e letterarie per studenti di scuole medie, 
-                            superiori e università dislocati in Italia e all'estero, accompagnandoli con percorsi semestrali o annuali nei loro 
-                            cicli scolastici.
-                            <br/><br className="md:hidden" />
-                            Ho lavorato coordinandomi con il team interno di manager e customer care e grazie a collaborazione e spirito 
-                            di squadra abbiamo garantito ai clienti la soddisfazione degli obiettivi scolastici concordati, entro le scadenze.
+                            superiori e università dislocati in Italia, accompagnandoli con percorsi semestrali o annuali nel loro 
+                            ciclo scolastico.
                             <br/>
-                            <br className="md:hidden" />
-                            Questo lavoro ha richiesto una forte capacità di ascolto e comunicazione, fondamentali per instaurare rapporti 
-                            solidi e di fiducia con i clienti.
+                            <br className="md:hidden"/>
+                            Mi sono coordinata con il team interno di sales, manager e costumer care per ascoltare 
+                            le richieste dei clienti ed elaborare i piani di recupero scolastico per i loro figli.
+                            <br/>
+                            <br className="md:hidden"/>
+                            Questo lavoro ha richiesto capacità di problem-solving e comunicazione, fondamentali per mantenere 
+                            il focus sugli obiettivi e offrire un'esperienza di qualità sia ai genitori che agli studenti.
+                            <br/>
+                            <br className="md:hidden"/>
+                            Ho inoltre avuto l'occasione di instaurate rapporti solidi e di fiducia con clienti gestiti a distanza, 
+                            collaborando con spirito di squadra all'espansione della piattaforma in tutta Italia.
                         </p>
                     </div>
                 </div>
-
-              </div>
+            </div>
             </section>
         </>
     )
