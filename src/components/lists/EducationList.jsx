@@ -1,6 +1,5 @@
 'use client'
-import Link from "next/link";
-
+ 
 export default function EducationList({title, school, date, certificateSrc, certificateLink, alt}){
     return(
         <>
