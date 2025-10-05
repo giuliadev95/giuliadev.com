@@ -15,9 +15,6 @@ export default function NavBar() {
     // Set the nav menu as invisible by default (false)
     const [showNavbar, setShownavbar] = useState(false);
 
-    // Set the "x" icon of the navbar as invisible by default
-    const [closeMenu, setCloseMenu] = useState(false);
-
     // Avoid the body from scrolling down when the navbar-menu is opened
     useEffect(() => {
 	if (showNavbar) {
@@ -37,7 +34,6 @@ export default function NavBar() {
                                 className="text-[24px] text-white font-thin"
                                 onClick={()=> {
                                     setShownavbar(true);
-                                    setCloseMenu(true);
                                 }}
                             />
                         </>
@@ -48,7 +44,6 @@ export default function NavBar() {
 
                                 onClick={()=> {
                                     setShownavbar(false);
-                                    setCloseMenu(false)
                                 }}
                             />
                         </>

@@ -1,4 +1,5 @@
 'use client';
+import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
 import { IoDocumentTextSharp } from "react-icons/io5";
@@ -26,7 +27,7 @@ export default function Hero() {
                     <p className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
                         Sono una sviluppatrice web specializzata sul front-end, 
                         mi occupo di creare interfacce moderne, responsive e performanti, 
-                        garantendo un'esperienza utente fluida e accessibile.
+                        garantendo un&apos;esperienza utente fluida e accessibile.
                     </p>
 
                     {/** 2 CTA Button components : view cv and go to projects */}

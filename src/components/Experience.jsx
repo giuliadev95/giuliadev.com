@@ -146,11 +146,11 @@ export default function Experience() {
                                 <br/>
                                 <br className="md:hidden"/>
                                 Questo lavoro ha richiesto capacità di problem-solving e comunicazione, fondamentali per mantenere 
-                                il focus sugli obiettivi e offrire un'esperienza di qualità sia ai genitori che agli studenti.
+                                il focus sugli obiettivi e offrire un&apos;esperienza di qualità sia ai genitori che agli studenti.
                                 <br/>
                                 <br className="md:hidden"/>
-                                Ho inoltre avuto l'occasione di instaurate rapporti solidi e di fiducia con clienti gestiti a distanza, 
-                                collaborando con spirito di squadra all'espansione della piattaforma in tutta Italia.
+                                Ho inoltre avuto l&apos;occasione di instaurate rapporti solidi e di fiducia con clienti gestiti a distanza, 
+                                collaborando con spirito di squadra all&apos;espansione della piattaforma in tutta Italia.
                             </p>
                         </div>
                     </div>
