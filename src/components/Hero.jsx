@@ -31,11 +31,14 @@ export default function Hero() {
 
                     {/** 2 CTA Button components : view cv and go to projects */}
                     <div className="flex gap-4 mt-4">
-                        <Button 
-                            color="green"
-                            icon={<IoDocumentTextSharp />}
-                            text="Vedi CV"          
+                       <a href="./giulia_moukouyou_cv.pdf" target="_blank" rel="noopener noreferrer">
+                            <Button 
+                                color="green"
+                                icon={<IoDocumentTextSharp />}
+                                text="Vedi CV"
                             />
+                        </a>
+
                         <Link href="#projects" scroll={true}>
                             <Button 
                                 color="grey"

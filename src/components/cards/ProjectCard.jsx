@@ -31,6 +31,8 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github,
                         ))}
                     </ul>  
                     <div className="flex gap-4 justify-between items-center mt-4">
+                        {/**
+                         * 
                         {details && 
                             <Link 
                                 href={details}
@@ -39,6 +41,7 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github,
                                 Scopri di più
                             </Link>
                         }
+                         */}
 
                         {github && 
                             <Link 

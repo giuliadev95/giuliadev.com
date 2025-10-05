@@ -133,13 +133,13 @@ export default function NavBar() {
                     )
                 }
             </div>
-            <div className="hidden lg:px-16 xl:px-64 lg:flex justify-start items-center gap-4 min-w-[100%] h-20 p-[1rem] bg-lightGreen fixed top-0 left-0 font-poppins">
+            <div className="hidden lg:px-16 xl:px-64 lg:flex justify-start items-center gap-4 min-w-[100%] h-20 p-[1rem] bg-lightGreen fixed top-0 left-0">
                 <ul className="flex gap-10">
                     <li>
                         <a 
                             href="#about" 
                             onClick={()=> setShownavbar(false)}
-                            className="flex items-center justify-center gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
+                            className="flex items-center justify-center gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline"
                         >
                             <FaUser/>
                             Chi sono
@@ -149,7 +149,7 @@ export default function NavBar() {
                         <a 
                             href="#experience" 
                             onClick={()=> setShownavbar(false)} 
-                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
+                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline"
                             >
                                 <FaBriefcase/>
                             Esperienza
@@ -159,7 +159,7 @@ export default function NavBar() {
                         <a 
                             href="#projects" 
                             onClick={()=> setShownavbar(false)}
-                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
+                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline"
                         >
                             <FaCode />
                             Progetti
@@ -169,7 +169,7 @@ export default function NavBar() {
                         <a 
                             href="#education" 
                             onClick={()=> setShownavbar(false)}
-                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
+                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline"
                         >
                             <IoSchool/>
                             Educazione
@@ -179,7 +179,7 @@ export default function NavBar() {
                         <a
                             href="#contact" 
                             onClick={()=> setShownavbar(false)}
-                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
+                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline"
                         >
                             <RiContactsBook3Fill/>
                             Contatti

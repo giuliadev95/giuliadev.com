@@ -71,7 +71,7 @@ export default function RootLayout({
       {/* Link rel="canonical" */}
       <link rel="canonical" href="https://www.giuliadev.com/" />
     </head>
-      <body>
+      <body className={`${poppins.variable} font-poppins`}>
         <header>
           {/** <Header/> */}  
           <NavBar/>   
