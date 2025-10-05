@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function ProjectCard({imgSource, title, body, stack, alt, github, details}){
+export default function ProjectCard({imgSource, title, body, stack, alt, github}){
 
     return(
         <>       
