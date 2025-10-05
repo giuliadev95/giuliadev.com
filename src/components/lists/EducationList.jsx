@@ -19,7 +19,7 @@ export default function EducationList({title, school, date, certificateSrc, cert
                     alt={alt}
                     width={"400px"}
                     height={"auto"}
-                    className="shadow-lg border-neutral-500"
+                    className="shadow-lg border-neutral-500 hover:cursor-pointer"
                     onClick={()=>{
                         certificateLink && (
                             window.open(certificateLink, "_blank")
