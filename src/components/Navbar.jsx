@@ -120,7 +120,7 @@ export default function NavBar() {
                                 </li>
                                 <li>
                                     <a
-                                        href="#contacts" 
+                                        href="#contact" 
                                         onClick={()=> setShownavbar(false)}
                                         className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
                                     >
@@ -177,7 +177,7 @@ export default function NavBar() {
                     </li>
                     <li>
                         <a
-                            href="#contacts" 
+                            href="#contact" 
                             onClick={()=> setShownavbar(false)}
                             className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] font-poppins hover:underline"
                         >

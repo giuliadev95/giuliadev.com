@@ -4,7 +4,7 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github,
 
     return(
         <>       
-            <div className=" flex flex-col items-start justify-start content-start md:flex-row">
+            <div className="flex flex-col items-start justify-start content-start md:flex-row">
                 <img
                     src={imgSource}
                     alt={alt}
