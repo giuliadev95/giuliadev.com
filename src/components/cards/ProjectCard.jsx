@@ -12,20 +12,24 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github}
                     height={"auto"}
                 />
                 <div className="flex flex-col items-start justify-between">
-                    <ul>
-                        <li>
+
+                    {/** Title, Body */}
+                    <ul className="flex flex-col items-start justify-start gap-2">
+                        <li className="font-bold text-xl">
                             {title}
                         </li>
-                        <li>
+                        <li className="text-lightGrey text-lg font-semibold">
                             {body}
                         </li>
                         
                     </ul>
-                    <ul className="flex flex-wrap items-center justify-start">
+
+                    {/** Tech Stack */}
+                    <ul className="flex flex-wrap items-center justify-start gap-2 mt-2">
                         {stack.map((item, index)=> (    
                             <li 
                                 key={index}
-                                className="inline-block rounded-full border border-black bg-black px-3 py-1 text-xs font-semibold text-white wh mr-2 mb-2">
+                                className="inline-block rounded-full border border-black bg-black px-3 py-1 text-xs font-semibold text-white">
                                 {item}
                             </li>
                         ))}

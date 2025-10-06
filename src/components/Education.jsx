@@ -13,6 +13,7 @@ export default function Education(){
                 key={index}
                 title={item.title}
                 school={item.school}
+                description={item.description}
                 date = {item.date}
                 certificateSrc={item.certificateSrc && item.certificateSrc} 
                 certificateLink={item.certificateLink && item.certificateLink}
