@@ -34,7 +34,7 @@ export default function Experience() {
                         {/** Job description */}
                         <ul className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
                             <li className="pb-[1rem] pt-[1rem]">
-                                Questo stage è stato un'importante esperienza formativa, durante la quale ho sviluppato 
+                                Questo stage è stato un&apos;importante esperienza formativa, durante la quale ho sviluppato 
                                 una web app per la gestione di una lista contatti, 
                                 seguendo l’intero ciclo di progettazione.
                             </li>
