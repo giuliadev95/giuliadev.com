@@ -9,7 +9,7 @@ export const projectsData = [
        // details:"/crm"
     },
     {
-        title: "Laning page",
+        title: "Landing page",
         body: "Portfolio minimalista da una pagina, dal look moderno ed elegante.",
         imgSource:"./mock-up-minimalist-portfolio.png",
         alt: "minimalist portfolio website",
