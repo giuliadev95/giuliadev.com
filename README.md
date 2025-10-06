@@ -1,3 +1,6 @@
+# Portfolio website
+This is my personal website, when I showcase my skills, projects, and work experience. Built with Next.js, Tailwind.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
