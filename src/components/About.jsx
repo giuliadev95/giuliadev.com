@@ -29,13 +29,7 @@ export default function About() {
                     sviluppo in <strong>Node.js, Express </strong> e <strong>SQL</strong> per il back-end e in <strong>React.js, JavaScript, Tailwind</strong> per il front-end.
                     <br/>
                     Ho realizzato landing page, siti web e web app: quello che mi appassiona è trasformare le idee in prodotti web 
-                    dal design moderno, user-friendly e responsivo.
-                    <br/>
-                    <br className="md:hidden" />
-                    Ho anche una passione per il design: mi piace creare i mock-up originali 
-                    per un progetto usando Figma, prestando attenzione ai dettagli pixel per pixel, con un approccio mobile-first. 
-                    Per tradurre uno stile in codice, utilizzo Tailwind, perchè mi permette di applicare gli stili direttamente inline sui 
-                    singoli componenti.
+                    di valore.
                 </p>
                 <br/>
 
