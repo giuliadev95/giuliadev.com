@@ -1,7 +1,7 @@
 export const projectsData = [
     {
         title: "CRM",
-        body: "Web app responsiva e intuitiva per la gestione di un portafoglio di clienti e di progetti.",
+        body: "CRM intuitivo e responsivo per la gestione di clienti e progetti.",
         imgSource:"./mock-up.png",
         alt:"Crm web app",
         stack:["Node.js","Express", "PostgreSQL", "React", "Tailwind", "Bootstrap"],
