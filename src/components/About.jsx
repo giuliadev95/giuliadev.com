@@ -22,7 +22,7 @@ export default function About() {
 
                 <p  className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
                     Mi appassiona creare interfacce utente funzionali e comode da usare: per farlo, 
-                    utilizzo principalmente JavaScript e React; nel mio percorso ho avuto l'opportunità di sviluppare 
+                    utilizzo principalmente JavaScript e React; nel mio percorso ho avuto l&apos;opportunità di sviluppare 
                     anche progetti full-stack, acquisendo competenze in ambito back-end.
                     <br/>
                     Che si tratti di realizzare landing page, siti web o web app, quello che mi appassiona è 
