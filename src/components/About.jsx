@@ -21,15 +21,12 @@ export default function About() {
                 {/** Description about me */}
 
                 <p  className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
-                    Sono una web developer con 1 anno di esperienza, trascorso lavorando prima su progetti personali e in seguito
-                    facendo uno stage aziendale di 6 mesi. 
+                    Mi appassiona creare interfacce utente funzionali e comode da usare: per farlo, 
+                    utilizzo principalmente JavaScript e React; nel mio percorso ho avuto l'opportunità di sviluppare 
+                    anche progetti full-stack, acquisendo competenze in ambito back-end.
                     <br/>
-                    <br className="md:hidden" />
-                    Sono competente sul back-end e sul front-end, principalmente
-                    sviluppo in <strong>Node.js, Express </strong> e <strong>SQL</strong> per il back-end e in <strong>React.js, JavaScript, Tailwind</strong> per il front-end.
-                    <br/>
-                    Ho realizzato landing page, siti web e web app: quello che mi appassiona è trasformare le idee in prodotti web 
-                    di valore.
+                    Che si tratti di realizzare landing page, siti web o web app, quello che mi appassiona è 
+                    trasformare le idee in prodotti di valore e accessibili.
                 </p>
                 <br/>
 
