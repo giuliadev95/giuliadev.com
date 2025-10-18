@@ -83,16 +83,18 @@ export default function NavBar() {
                                         Chi sono
                                     </a>
                                 </li>
-                                <li>
-                                    <a 
-                                        href="#experience" 
-                                        onClick={()=> setShownavbar(false)} 
-                                        className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
-                                        >
-                                            <FaBriefcase/>
-                                        Esperienza
-                                    </a>
-                                </li>
+                                {/**
+                                    <li>
+                                        <a 
+                                            href="#experience" 
+                                            onClick={()=> setShownavbar(false)} 
+                                            className="flex items-center justify-start gap-2 text-xl text-white font-semibold hover:text-[#00000080]"
+                                            >
+                                                <FaBriefcase/>
+                                            Esperienza
+                                        </a>
+                                    </li>
+                                */}
                                 <li>
                                     <a 
                                         href="#projects" 
@@ -140,16 +142,19 @@ export default function NavBar() {
                             Chi sono
                         </a>
                     </li>
-                    <li>
-                        <a 
-                            href="#experience" 
-                            onClick={()=> setShownavbar(false)} 
-                            className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline cursor-pointer"
-                            >
-                                <FaBriefcase/>
-                            Esperienza
-                        </a>
-                    </li>
+                    {/**
+                     * 
+                        <li>
+                            <a 
+                                href="#experience" 
+                                onClick={()=> setShownavbar(false)} 
+                                className="flex items-center justify-start gap-2 text-lg text-white font-thin hover:text-[#00000080] hover:underline cursor-pointer"
+                                >
+                                    <FaBriefcase/>
+                                Esperienza
+                            </a>
+                        </li>
+                    */}
                     <li>
                         <a 
                             href="#projects" 

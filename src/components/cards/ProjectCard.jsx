@@ -56,7 +56,7 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github}
                             >
                                 Vai al progetto
                             </Link>
-                        }                   
+                        }               
                     </div>
                 </div>
             </div>
