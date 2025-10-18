@@ -18,13 +18,16 @@ export default function Contact() {
             </a>
 
             <ul className="flex justify-start items-start gap-[2rem]">
-                <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/giuliamoukouyou/" rel="noopener noreferrer">       
-                        <BiLogoLinkedin
-                            className="text-lightGreen font-semibold text-[3rem] border border-white rounded-2xl bg-white"
-                        />
-                    </a>
-                </li>
+                {/**
+                 * 
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/giuliamoukouyou/" rel="noopener noreferrer">       
+                            <BiLogoLinkedin
+                                className="text-lightGreen font-semibold text-[3rem] border border-white rounded-2xl bg-white"
+                            />
+                        </a>
+                    </li>
+                 */}
                 <li>
                     <a target="_blank" href="https://github.com/giuliadev95" rel="noopener noreferrer">
                         <FaGithub

@@ -21,11 +21,15 @@ export default function About() {
                 {/** Description about me */}
 
                 <p  className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
-                    Mi appassiona creare interfacce utente funzionali e comode da usare: per farlo, 
-                    utilizzo principalmente JavaScript e React; nel mio percorso ho avuto l&apos;opportunità di sviluppare 
-                    anche progetti full-stack, acquisendo competenze in ambito back-end.
+                    Mi appassiona creare interfacce utente funzionali e comode da usare: sono autodidatta, 
+                    ho studiato programmazione in autonomia, seguendo corsi online e applicando 
+                    le mie competenze nella creazione di siti web, blog e web app. 
                     <br/>
-                    Che si tratti di realizzare landing page, siti web o web app, quello che mi appassiona è 
+                    <br/>
+                    Ho seguito ogni mio progetto in modo completo, implementandone il design con Figma: ho usato JavaScript, React e Next.js 
+                    nel front-end, Node.js con Express nel back-end, con database PostgreSQL.
+                    <br/>
+                    Di qualunque progetto si tratti, quello che mi appassiona è 
                     trasformare le idee in prodotti di valore e accessibili.
                 </p>
                 <br/>
