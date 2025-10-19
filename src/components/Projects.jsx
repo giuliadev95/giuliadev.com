@@ -20,6 +20,7 @@ export default function Projects(){
                         stack={project.stack}
                         github={project.github}
                         demo={project.demo}
+                        description={project.description}
                        // details={project.details}
                     />
                 ))}
