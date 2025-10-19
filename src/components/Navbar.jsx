@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
-import { BiLogoLinkedin } from "react-icons/bi";
+//import { BiLogoLinkedin } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 import { FaBriefcase } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
@@ -55,14 +55,17 @@ export default function NavBar() {
                     showNavbar && (     
                         <div className="lg:hidden flex flex-col items-center gap-5 md:gap-7 px-4 py-5 min-h-[100vh] min-w-[100%] bg-lightGreen mt-0 fixed top-20 left-0">
                             <ul className="flex justify-center items-center gap-4">
-                                <li>
-                                    <a target="_blank" href="https://www.linkedin.com/in/giuliamoukouyou/" rel="noopener noreferrer">
-                                
-                                        <BiLogoLinkedin
-                                            className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
-                                        />
-                                    </a>
-                                </li>
+                                {/**
+                                    <li>
+                                        <a target="_blank" href="https://www.linkedin.com/in/giuliamoukouyou/" rel="noopener noreferrer">
+                                    
+                                            <BiLogoLinkedin
+                                                className="text-lightGreen font-semibold text-3xl md:text-4xl border border-white rounded-2xl p-1 bg-white"
+                                            />
+                                        </a>
+                                    </li>
+                                 * 
+                                 */}
                                 <li>
                                     <a target="_blank" href="https://github.com/giuliadev95" rel="noopener noreferrer">
                                         <FaGithub
