@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function ProjectCard({imgSource, title, body, stack, alt, github}){
+export default function ProjectCard({imgSource, title, body, stack, alt, github, demo}){
 
     return(
         <>       
@@ -48,14 +48,24 @@ export default function ProjectCard({imgSource, title, body, stack, alt, github}
                          */}
 
                         {github && 
-                            <Link 
-                                href={github}
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="py-1 px-4 bg-lightGreen text-white border-darkGreen rounded-2xl"
-                            >
-                                Vai al progetto
-                            </Link>
+                            <div className="flex gap-2">
+                                <Link 
+                                    href={github}
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="py-1 px-4 bg-lightGreen text-white border-darkGreen rounded-2xl"
+                                >
+                                    Codice
+                                </Link>
+                                <Link 
+                                    href={demo}
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="py-1 px-4 bg-lightGreen text-white border-darkGreen rounded-2xl"
+                                >
+                                    Live
+                                </Link>
+                            </div>
                         }               
                     </div>
                 </div>
