@@ -1,5 +1,14 @@
 export const EducationData = [
     {
+        title: "Corsi di sviluppo front-end e back-end",
+        school: "Codegrind",
+        date: "2025",
+        description:`Ho seguito i corsi su JavaScript avanzato, Node.js e React della piattaforma Codegrind.`,
+        certificateSrc: "",
+        certificateLink:"",
+        alt: ""
+    },
+    {
         title: "Content-driven web application foundation",
         school: "Sanity Learn",
         date: "2024",
