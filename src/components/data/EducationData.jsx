@@ -28,6 +28,15 @@ export const EducationData = [
         alt:"Certificato del corso Introduction to Front-End development"
     },
     {
+        title: "Laurea Magistrale",
+        school: "Università degli Studi di Milano",
+        date: "09/2023 - in corso",
+        description:"Corso di laurea magistrale in Filologia, letterature e storia dell'antichità.",
+        certificateSrc: null,
+        certificateLink: null,
+        alt:null
+    }, 
+    {
         title: "Laurea Triennale in Lettere",
         school: "Università degli Studi di Milano",
         date: "09/2016 - 07/2021",

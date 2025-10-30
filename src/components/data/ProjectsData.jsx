@@ -63,5 +63,27 @@ export const projectsData = [
                     Ho assicurato una navigazione fluida e adattato le immagini a tutti gli schermi. 
             `
         ]
+    },
+    {
+        title: "Tutor life",
+        body: "Blog per dare consigli a chi vuole insegnare online.",
+        imgSource:".\\mock-up-tutorlife.jpg",
+        alt: "live website of tutor life",
+        stack:["Next.js", "Tailwind"],
+        github:"https://github.com/giuliadev95/blog/tree/staging",
+        demo:"https://www.tutorlife.it/",
+        // details:"/portfolio"
+        description: [
+            `
+                Questo progetto è un blog in <strong>Next.js e Tailwind</strong>.
+                
+            `,
+            `
+                Si tratta di un pogetto dove condivido consigli professionali per chiunque voglia diventare insegnante online.
+            `
+            ,   `
+                    Ho creato il design originale con <strong>Figma</strong>, facendo una moodboard.
+            `
+        ]
     }
 ]
