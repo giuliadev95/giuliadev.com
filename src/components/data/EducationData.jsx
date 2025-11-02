@@ -1,5 +1,23 @@
 export const EducationData = [
     {
+        title: "Laurea Magistrale",
+        school: "Università degli Studi di Milano",
+        date: "09/2023 - in corso",
+        description:"Corso di laurea magistrale in Filologia, letterature e storia dell'antichità.",
+        certificateSrc: null,
+        certificateLink: null,
+        alt:null
+    }, 
+    {
+        title: "Laurea Triennale in Lettere",
+        school: "Università degli Studi di Milano",
+        date: "09/2016 - 07/2021",
+        description:"Corso di laurea in ambito umanistico, incentrato sullo sviluppo di soft skills come comunicazione, scrittura e ascolto.",
+        certificateSrc: null,
+        certificateLink: null,
+        alt:null
+    },
+    {
         title: "Corsi di sviluppo front-end e back-end",
         school: "Codegrind",
         date: "2025",
@@ -26,23 +44,5 @@ export const EducationData = [
         certificateSrc: "./meta.png",
         certificateLink: "https://www.coursera.org/account/accomplishments/verify/SGADLMM2PX2D",
         alt:"Certificato del corso Introduction to Front-End development"
-    },
-    {
-        title: "Laurea Magistrale",
-        school: "Università degli Studi di Milano",
-        date: "09/2023 - in corso",
-        description:"Corso di laurea magistrale in Filologia, letterature e storia dell'antichità.",
-        certificateSrc: null,
-        certificateLink: null,
-        alt:null
-    }, 
-    {
-        title: "Laurea Triennale in Lettere",
-        school: "Università degli Studi di Milano",
-        date: "09/2016 - 07/2021",
-        description:"Corso di laurea in ambito umanistico, incentrato sullo sviluppo di soft skills come comunicazione, scrittura e ascolto.",
-        certificateSrc: null,
-        certificateLink: null,
-        alt:null
     }
 ]
