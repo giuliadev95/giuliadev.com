@@ -51,14 +51,15 @@ export default function Hero() {
                     </div>
                 </div>
 
-                {/* My profile image */}
-                <div className="flex-shrink-0 self-start">
-                    <img 
-                        src="./foto_bg_removed.png"
-                        alt="Foto di Giulia"
-                        className="w-[200px] h-[200px] md:w-[280px] md:h-[280px]"
-                    />
-                </div>
+                {/* My profile image 
+                    <div className="flex-shrink-0 self-start">
+                        <img 
+                            src="./foto_bg_removed.png"
+                            alt="Foto di Giulia"
+                            className="w-[200px] h-[200px] md:w-[280px] md:h-[280px]"
+                        />
+                    </div>
+                */}
             </div>
         </section>
     );
