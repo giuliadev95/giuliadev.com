@@ -14,7 +14,7 @@ export default function Contact() {
             </p>
 
             <a href="mailto:giuliadev95@gmail.com" className="hover:underline text-base md:text-lg font-bold text-lightGrey">
-                E-mail: giuliadev95@gmail.com
+                contattami
             </a>
 
             <ul className="flex justify-start items-start gap-[2rem]">
