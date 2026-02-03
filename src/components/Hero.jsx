@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Button from "./Button";
-import { IoDocumentTextSharp } from "react-icons/io5";
 import { FaCode } from "react-icons/fa6";
 
 export default function Hero() {
