@@ -26,17 +26,16 @@ export default function About() {
         {/** Description about me */}
 
         <p className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
-          Mi appassiona creare interfacce utente funzionali e comode da usare:
-          da autodidatta, ho studiato programmazione seguendo corsi e applicando
-          le mie competenze nella creazione di siti web, blog e web app.
+          Da sempre appassionata di tecnologia, dopo un percorso di studi
+          universitari incentrato sull{"'"}analisi di dati ambientali e una tesi
+          in ecologia preistorica, ho deciso di trasformare l{"'"}informatica da
+          strumento a centro del mio percorso professionale, facendo un cambio
+          di carriera ed entrando nello sviluppo web app.
           <br />
           <br />
-          Ho curato ogni mio progetto in modo completo, implementandone il
-          design con Figma: ho usato JavaScript, React e Next.js nel front-end,
-          Node.js con Express nel back-end, con database PostgreSQL.
-          <br />
-          Di qualunque progetto si tratti, quello che mi appassiona è
-          trasformare le idee in prodotti di valore e intuitivi.
+          Dal mio percoso di studi, ho acquisito skill di comunicazione e
+          ascolto che applico in azienda, collaboro in team alla risoluzione di
+          problemi e trasformo progetti in soluzioni web moderne e di qualità.
         </p>
         <br />
 

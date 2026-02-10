@@ -20,9 +20,10 @@ export default function Hero() {
           </h1>
 
           <p className="text-base md:text-lg font-normal text-lightGrey leading-relaxed">
-            Sono una sviluppatrice web specializzata sul front-end, mi occupo di
-            creare interfacce moderne, responsive e performanti, garantendo
-            un&apos;esperienza utente di qualità.
+            Full Stack developer con esperienza nello sviluppo di web app, mi
+            occupo di implementare back-end e database in Node.js e SQL e di
+            creare interfacce moderne, responsive e performanti usando
+            JavaScript e React, garantendo un&apos;esperienza utente di qualità.
           </p>
 
           {/** 2 CTA Button components : view cv and go to projects */}
